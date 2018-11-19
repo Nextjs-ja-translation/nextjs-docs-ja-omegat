@@ -312,6 +312,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;ul&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/data-fetch"&gt;Data fetch&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/details&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074958Z" creationid="hirofumiwakasugi" creationdate="20181119T074958Z">
+        <seg>&lt;ul&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/data-fetch"&gt;Data fetch&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/details&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;ul&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-styled-components"&gt;Styled components&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-styletron"&gt;Styletron&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-glamor"&gt;Glamor&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-glamorous"&gt;Glamorous&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-cxs"&gt;Cxs&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-aphrodite"&gt;Aphrodite&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-fela"&gt;Fela&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;/details&gt;</seg>
       </tuv>
@@ -518,6 +528,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074324Z" creationid="hirofumiwakasugi" creationdate="20181119T074324Z">
         <seg>ページの `&lt;head&gt;` に要素を追加するために組み込みのコンポーネントを利用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you need state, lifecycle hooks or **initial data population** you can export a `React.Component` (instead of a stateless function, like shown above):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075251Z" creationid="hirofumiwakasugi" creationdate="20181119T075251Z">
+        <seg>状態、ライフサイクルフック、そして **初期データの設定** を行う必要がある場合、(これまで紹介してきたステートレスな関数ではなく) `React.Component` を export することができます。</seg>
       </tuv>
     </tu>
     <tu>
