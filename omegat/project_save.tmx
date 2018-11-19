@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;br/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T095826Z" creationid="hirofumiwakasugi" creationdate="20181119T095826Z">
+        <seg>&lt;br/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;details&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041430Z" creationid="hirofumiwakasugi" creationdate="20181119T041430Z">
@@ -332,6 +340,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; If you are using some server only modules inside `getInitialProps`, make sure to [import them properly](https://arunoda.me/blog/ssr-and-server-only-modules).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T100022Z" creationid="hirofumiwakasugi" creationdate="20181119T100022Z">
+        <seg>&gt; もし `getInitialProps` の中でサーバーのみのモジュールを使っている場合、それらを[正しく import](https://arunoda.me/blog/ssr-and-server-only-modules) していないと</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; Otherwise, it'll slow down your app.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T100047Z" creationid="hirofumiwakasugi" creationdate="20181119T100047Z">
+        <seg>&gt; アプリケーションが遅くなってしまうため注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>@media (max-width: 600px) {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041435Z" creationid="hirofumiwakasugi" creationdate="20181119T041435Z">
@@ -448,6 +472,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075422Z" creationid="hirofumiwakasugi" creationdate="20181119T075422Z">
         <seg>ページが読み込まれるときのデータを設定するために [`async`](https://zeit.co/blog/async-and-await) で static な `getInitialProps` メソッドを使っていることに注目してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Only in `pages`._</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T095837Z" creationid="hirofumiwakasugi" creationdate="20181119T095824Z">
+        <seg>利用できるのは `pages` に限られます。_</seg>
       </tuv>
     </tu>
     <tu>
@@ -576,6 +608,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075255Z" creationid="hirofumiwakasugi" creationdate="20181119T075251Z">
         <seg>状態、ライフサイクルフック、そして **初期データの設定** を行う必要がある場合、(これまで紹介してきたステートレスな関数ではなく) `React.Component` を export することができます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also define the `getInitialProps` lifecycle method for stateless components:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T100124Z" creationid="hirofumiwakasugi" creationdate="20181119T100124Z">
+        <seg>ステートレスなコンポーネントでも `getInitialProps` ライフサイクルメソッドを定義することができます:</seg>
       </tuv>
     </tu>
     <tu>
