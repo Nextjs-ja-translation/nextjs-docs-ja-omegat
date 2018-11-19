@@ -532,8 +532,8 @@
       <tuv lang="EN-US">
         <seg>_Note: The contents of `&lt;head&gt;` get cleared upon unmounting the component, so make sure each page completely defines what it needs in `&lt;head&gt;`, without making assumptions about what other pages added_</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074505Z" creationid="hirofumiwakasugi" creationdate="20181119T074505Z">
-        <seg>_Note: The contents of `&lt;head&gt;` get cleared upon unmounting the component, so make sure each page completely defines what it needs in `&lt;head&gt;`, without making assumptions about what other pages added_</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074833Z" creationid="hirofumiwakasugi" creationdate="20181119T074505Z">
+        <seg>_注意: `&lt;head&gt;` の内容はコンポーネントがアンマウントされる際に消去されるため、各ページは `&lt;head&gt;` で必要とするものをすべて定義しておく必要があります。他のページで追加しているものに依存することはできません。_</seg>
       </tuv>
     </tu>
     <tu>
