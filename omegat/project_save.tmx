@@ -596,6 +596,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>_Note: `getInitialProps` can **not** be used in children components.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T095755Z" creationid="hirofumiwakasugi" creationdate="20181119T095755Z">
+        <seg>_注意: `getInitialProps` を子コンポーネントで利用することは**できません**。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`./static/` is mapped to `/static/` (given you [create a `./static/` directory](#static-file-serving-eg-images) inside your project)</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041424Z" creationid="hirofumiwakasugi" creationdate="20181119T041424Z">
