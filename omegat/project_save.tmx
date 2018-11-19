@@ -412,6 +412,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notice that to load data when the page loads, we use `getInitialProps` which is an [`async`](https://zeit.co/blog/async-and-await) static method.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075422Z" creationid="hirofumiwakasugi" creationdate="20181119T075422Z">
+        <seg>ページが読み込まれるときのデータを設定するために [`async`](https://zeit.co/blog/async-and-await) で static な `getInitialProps` メソッドを使っていることに注目してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Please see the [styled-jsx documentation](https://www.npmjs.com/package/styled-jsx) for more examples.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041438Z" creationid="hirofumiwakasugi" creationdate="20181119T041438Z">
