@@ -356,6 +356,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Data returned from `getInitialProps` is serialized when server rendering, similar to a `JSON.stringify`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075706Z" creationid="hirofumiwakasugi" creationdate="20181119T075706Z">
+        <seg>サーバーサイドレンダリング時には `getInitialProps` の戻り値のデータはシリアライズされます。ちょうど `JSON.stringify` と似た感じです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every `.js` file becomes a route that gets automatically processed and rendered.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041419Z" creationid="hirofumiwakasugi" creationdate="20181119T041419Z">
@@ -400,6 +408,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041409Z" creationid="hirofumiwakasugi" creationdate="20181119T041409Z">
         <seg>以下を実行してインストールします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It can asynchronously fetch anything that resolves to a JavaScript plain `Object`, which populates `props`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075537Z" creationid="hirofumiwakasugi" creationdate="20181119T075537Z">
+        <seg>このメソッドは、JavaScript のプレーンな `Object` として扱えるものであれば何でも非同期的に取得して、それを `props` に含めます。</seg>
       </tuv>
     </tu>
     <tu>
