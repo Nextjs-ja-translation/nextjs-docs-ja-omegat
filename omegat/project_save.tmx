@@ -272,6 +272,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>From your code you can then reference those files with `/static/` URLs:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043728Z" creationid="hirofumiwakasugi" creationdate="20181119T043728Z">
+        <seg>From your code you can then reference those files with `/static/` URLs:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hello world</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
