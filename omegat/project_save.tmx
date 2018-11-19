@@ -690,6 +690,14 @@ import cowsay from 'cowsay-browser'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>`getInitialProps` will only be executed on the client when navigating to a different route via the `Link` component or using the routing APIs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T095712Z" creationid="hirofumiwakasugi" creationdate="20181119T095712Z">
+        <seg>`getInitialProps` がクライアントサイドで実行されるのは、`Link` コンポーネントかルーティング API を用いて別のルートに移動した場合のみです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`}&lt;/style&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041436Z" creationid="hirofumiwakasugi" creationdate="20181119T041436Z">
