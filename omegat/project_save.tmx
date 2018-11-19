@@ -534,8 +534,8 @@
       <tuv lang="EN-US">
         <seg>When you need state, lifecycle hooks or **initial data population** you can export a `React.Component` (instead of a stateless function, like shown above):</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075251Z" creationid="hirofumiwakasugi" creationdate="20181119T075251Z">
-        <seg>状態、ライフサイクルフック、そして **初期データの設定** を行う必要がある場合、(これまで紹介してきたステートレスな関数ではなく) `React.Component` を export することができます。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075255Z" creationid="hirofumiwakasugi" creationdate="20181119T075251Z">
+        <seg>状態、ライフサイクルフック、そして **初期データの設定** を行う必要がある場合、(これまで紹介してきたステートレスな関数ではなく) `React.Component` を export することができます:</seg>
       </tuv>
     </tu>
     <tu>
@@ -631,6 +631,16 @@ import Head from 'next/head'</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>```jsx
+import React from 'react'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075256Z" creationid="hirofumiwakasugi" creationdate="20181119T075256Z">
+        <seg>```jsx
+import React from 'react'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
 import cowsay from 'cowsay-browser'</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041427Z" creationid="hirofumiwakasugi" creationdate="20181119T041427Z">
@@ -716,6 +726,14 @@ import cowsay from 'cowsay-browser'</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041427Z" creationid="hirofumiwakasugi" creationdate="20181119T041427Z">
         <seg>export default () =&gt; (</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>export default class extends React.Component {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075257Z" creationid="hirofumiwakasugi" creationdate="20181119T075257Z">
+        <seg>export default class extends React.Component {</seg>
       </tuv>
     </tu>
     <tu>
