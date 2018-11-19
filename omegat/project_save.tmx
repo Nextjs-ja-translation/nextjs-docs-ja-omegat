@@ -675,6 +675,16 @@ npm install --save next react react-dom
     <tu>
       <tuv lang="EN-US">
         <seg>```jsx
+const Page = ({ stars }) =&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T102046Z" creationid="hirofumiwakasugi" creationdate="20181119T102046Z">
+        <seg>```jsx
+const Page = ({ stars }) =&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
 export default () =&gt; (</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041432Z" creationid="hirofumiwakasugi" creationdate="20181119T041432Z">
