@@ -97,31 +97,31 @@ export default () => (
 
 <details>
   <summary>
-    <b>Examples</b>
+    <b>例</b>
     </summary>
   <ul><li><a target="_blank" href="/examples/with-styled-components">Styled components</a></li><li><a target="_blank" href="/examples/with-styletron">Styletron</a></li><li><a target="_blank" href="/examples/with-glamor">Glamor</a></li><li><a target="_blank" href="/examples/with-glamorous">Glamorous</a></li><li><a target="_blank" href="/examples/with-cxs">Cxs</a></li><li><a target="_blank" href="/examples/with-aphrodite">Aphrodite</a></li><li><a target="_blank" href="/examples/with-fela">Fela</a></li></ul>
 </details>
 
-It's possible to use any existing CSS-in-JS solution. The simplest one is inline styles:
+既存のどんな CSS-in-JS も利用することができます。一番シンプルなのはインラインで記述するものでしょう:
 
 ```jsx
 export default () => <p style={{ color: 'red' }}>hi there</p>
 ```
 
-To use more sophisticated CSS-in-JS solutions, you typically have to implement style flushing for server-side rendering. We enable this by allowing you to define your own [custom `<Document>`](#user-content-custom-document) component that wraps each page.
+より洗練された CSS-in-JS のソリューションを使いたい場合には、サーバーサイドレンダリングでスタイルを設定するための実装を追加する必要があるでしょう。これは、独自の[カスタム `<Document>`](#user-content-custom-document) コンポーネントを定義することで実現できます。
 
-#### Importing CSS / Sass / Less / Stylus files
+#### CSS / Sass / Less / Stylus ファイルのインポート
 
-To support importing `.css`, `.scss`, `.less` or `.styl` files you can use these modules, which configure sensible defaults for server rendered applications.
+`.css` / `.scss` / `.less` / `.styl` ファイルをインポートするためには、サーバーサイドでリンダリングされるアプリケーション用の設定が施された以下のモジュールを利用してください。
 
 - [@zeit/next-css](https://github.com/zeit/next-plugins/tree/master/packages/next-css)
 - [@zeit/next-sass](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)
 - [@zeit/next-less](https://github.com/zeit/next-plugins/tree/master/packages/next-less)
 - [@zeit/next-stylus](https://github.com/zeit/next-plugins/tree/master/packages/next-stylus)
 
-### Static file serving (e.g.: images)
+### 静的ファイル (例: 画像) のサーブ
 
-Create a folder called `static` in your project root directory. From your code you can then reference those files with `/static/` URLs:
+プロジェクトのルートディレクトリに `static` というディレクトリを作成します。From your code you can then reference those files with `/static/` URLs:
 
 ```jsx
 export default () => <img src="/static/my-image.png" alt="my image" />
