@@ -336,6 +336,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use more sophisticated CSS-in-JS solutions, you typically have to implement style flushing for server-side rendering.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043230Z" creationid="hirofumiwakasugi" creationdate="20181119T043230Z">
+        <seg>より洗練された CSS-in-JS のソリューションを使いたい場合には、サーバーサイドレンダリングでスタイルを設定するための実装を追加する必要があるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We bundle [styled-jsx](https://github.com/zeit/styled-jsx) to provide support for isolated scoped CSS.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041432Z" creationid="hirofumiwakasugi" creationdate="20181119T041432Z">
