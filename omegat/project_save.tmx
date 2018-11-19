@@ -206,6 +206,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;ul&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-styled-components"&gt;Styled components&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-styletron"&gt;Styletron&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-glamor"&gt;Glamor&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-glamorous"&gt;Glamorous&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-cxs"&gt;Cxs&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-aphrodite"&gt;Aphrodite&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-fela"&gt;Fela&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/details&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T042120Z" creationid="hirofumiwakasugi" creationdate="20181119T042120Z">
+        <seg>&lt;ul&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-styled-components"&gt;Styled components&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-styletron"&gt;Styletron&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-glamor"&gt;Glamor&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-glamorous"&gt;Glamorous&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-cxs"&gt;Cxs&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-aphrodite"&gt;Aphrodite&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/with-fela"&gt;Fela&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/details&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>@media (max-width: 600px) {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041435Z" creationid="hirofumiwakasugi" creationdate="20181119T041435Z">
@@ -254,6 +264,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's possible to use any existing CSS-in-JS solution.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T042146Z" creationid="hirofumiwakasugi" creationdate="20181119T042146Z">
+        <seg>既存のどんな CSS-in-JS も利用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Please see the [styled-jsx documentation](https://www.npmjs.com/package/styled-jsx) for more examples.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041438Z" creationid="hirofumiwakasugi" creationdate="20181119T041438Z">
@@ -290,6 +308,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041432Z" creationid="hirofumiwakasugi" creationdate="20181119T041432Z">
         <seg>これは Web Components の「Shadow CSS」に似た機能を提供することを目的としています (残念ながら Shadow CSS は[サーバーサイドレンダリングで利用することができません](https://github.com/w3c/webcomponents/issues/71))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The simplest one is inline styles:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T042209Z" creationid="hirofumiwakasugi" creationdate="20181119T042209Z">
+        <seg>一番シンプルなのはインラインで記述するものでしょう:</seg>
       </tuv>
     </tu>
     <tu>
