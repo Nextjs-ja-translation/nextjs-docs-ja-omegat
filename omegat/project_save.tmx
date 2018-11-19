@@ -428,6 +428,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Make sure the returned object from `getInitialProps` is a plain `Object` and not using `Date`, `Map` or `Set`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075815Z" creationid="hirofumiwakasugi" creationdate="20181119T075815Z">
+        <seg>`getInitialProps` が返すオブジェクトは必ず「プレーンな `Object`」でなければならず、`Date`,/ `Map` / `Set` は使用できないことに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Notice that to load data when the page loads, we use `getInitialProps` which is an [`async`](https://zeit.co/blog/async-and-await) static method.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075422Z" creationid="hirofumiwakasugi" creationdate="20181119T075422Z">
