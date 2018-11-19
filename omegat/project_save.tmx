@@ -352,6 +352,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We enable this by allowing you to define your own [custom `&lt;Document&gt;`](#user-content-custom-document) component that wraps each page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043311Z" creationid="hirofumiwakasugi" creationdate="20181119T043311Z">
+        <seg>これは、独自の[カスタム `&lt;Document&gt;`](#user-content-custom-document) コンポーネントを定義することで実現できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`./static/` is mapped to `/static/` (given you [create a `./static/` directory](#static-file-serving-eg-images) inside your project)</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041424Z" creationid="hirofumiwakasugi" creationdate="20181119T041424Z">
