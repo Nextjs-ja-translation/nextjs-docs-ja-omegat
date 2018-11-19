@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#### Importing CSS / Sass / Less / Stylus files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043336Z" creationid="hirofumiwakasugi" creationdate="20181119T043336Z">
+        <seg>#### CSS / Sass / Less / Stylus ファイルのインポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Automatic transpilation and bundling (with webpack and babel)
 - Hot code reloading
 - Server rendering and indexing of `./pages`
@@ -324,6 +332,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041425Z" creationid="hirofumiwakasugi" creationdate="20181119T041425Z">
         <seg>実際にこれがどれだけシンプルにできるかは、[nextgram というサンプルアプリケーション](https://github.com/zeit/nextgram)をチェックしてみるとよいでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To support importing `.css`, `.scss`, `.less` or `.styl` files you can use these modules, which configure sensible defaults for server rendered applications.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043515Z" creationid="hirofumiwakasugi" creationdate="20181119T043515Z">
+        <seg>`.css` / `.scss` / `.less` / `.styl` ファイルをインポートするためには、サーバーサイドでリンダリングされるアプリケーション用の設定が施された以下のモジュールを利用してください。</seg>
       </tuv>
     </tu>
     <tu>
