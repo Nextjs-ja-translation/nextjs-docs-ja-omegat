@@ -380,6 +380,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the initial page load, `getInitialProps` will execute on the server only.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T095608Z" creationid="hirofumiwakasugi" creationdate="20181119T095608Z">
+        <seg>最初にページが読み込まれるとき、`getInitialProps` はサーバーサイドでのみ実行されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>From your code you can then reference those files with `/static/` URLs:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043728Z" creationid="hirofumiwakasugi" creationdate="20181119T043728Z">
