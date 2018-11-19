@@ -248,6 +248,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a folder called `static` in your project root directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043613Z" creationid="hirofumiwakasugi" creationdate="20181119T043613Z">
+        <seg>プロジェクトのルートディレクトリに `static` というディレクトリを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every `.js` file becomes a route that gets automatically processed and rendered.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041419Z" creationid="hirofumiwakasugi" creationdate="20181119T041419Z">
