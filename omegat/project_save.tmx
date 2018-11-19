@@ -124,6 +124,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;/Head&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074328Z" creationid="hirofumiwakasugi" creationdate="20181119T074328Z">
+        <seg>&lt;/Head&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/div&gt;
 )
 ```</seg>
@@ -148,6 +156,24 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;/ul&gt;
+&lt;/details&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074240Z" creationid="hirofumiwakasugi" creationdate="20181119T074240Z">
+        <seg>&lt;/ul&gt;
+&lt;/details&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;Head&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074325Z" creationid="hirofumiwakasugi" creationdate="20181119T074325Z">
+        <seg>&lt;Head&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b&gt;Examples&lt;/b&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T042039Z" creationid="hirofumiwakasugi" creationdate="20181119T042039Z">
@@ -168,6 +194,46 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
         <seg>&lt;div&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/layout-component"&gt;Layout component&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074239Z" creationid="hirofumiwakasugi" creationdate="20181119T074239Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/layout-component"&gt;Layout component&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;meta name="viewport" content="initial-scale=1.0, width=device-width" /&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074328Z" creationid="hirofumiwakasugi" creationdate="20181119T074328Z">
+        <seg>&lt;meta name="viewport" content="initial-scale=1.0, width=device-width" /&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" /&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074457Z" creationid="hirofumiwakasugi" creationdate="20181119T074457Z">
+        <seg>&lt;meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" /&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;meta name="viewport" content="initial-scale=1.2, width=device-width" key="viewport" /&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074458Z" creationid="hirofumiwakasugi" creationdate="20181119T074458Z">
+        <seg>&lt;meta name="viewport" content="initial-scale=1.2, width=device-width" key="viewport" /&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;p&gt;Hello world!&lt;/p&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074329Z" creationid="hirofumiwakasugi" creationdate="20181119T074329Z">
+        <seg>&lt;p&gt;Hello world!&lt;/p&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -216,6 +282,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041431Z" creationid="hirofumiwakasugi" creationdate="20181119T041431Z">
         <seg>&lt;summary&gt;&lt;b&gt;例&lt;/b&gt;&lt;/summary&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;title&gt;My page title&lt;/title&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074327Z" creationid="hirofumiwakasugi" creationdate="20181119T074327Z">
+        <seg>&lt;title&gt;My page title&lt;/title&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -296,6 +370,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this case only the second `&lt;meta name="viewport" /&gt;` is rendered.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074524Z" creationid="hirofumiwakasugi" creationdate="20181119T074458Z">
+        <seg>例えば上記の例では、2番目の `&lt;meta name="viewport" /&gt;` のみがレンダリングされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Install it:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041409Z" creationid="hirofumiwakasugi" creationdate="20181119T041409Z">
@@ -368,6 +450,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To avoid duplicate tags in your `&lt;head&gt;` you can use the `key` property, which will make sure the tag is only rendered once:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074456Z" creationid="hirofumiwakasugi" creationdate="20181119T074456Z">
+        <seg>`&lt;head&gt;` の中で要素が重複するのを避けるために `key` プロパティを使うことができます。これによって、あるタグが一度だけレンダリングされることを保証することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To see how simple this is, check out the [sample app - nextgram](https://github.com/zeit/nextgram)</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041425Z" creationid="hirofumiwakasugi" creationdate="20181119T041425Z">
@@ -416,10 +506,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We expose a built-in component for appending elements to the `&lt;head&gt;` of the page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074324Z" creationid="hirofumiwakasugi" creationdate="20181119T074324Z">
+        <seg>ページの `&lt;head&gt;` に要素を追加するために組み込みのコンポーネントを利用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>_Note: Don't name the `static` directory anything else.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074021Z" creationid="hirofumiwakasugi" creationdate="20181119T074021Z">
         <seg>_注意: ディレクトリ名は必ず `static` としてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>_Note: The contents of `&lt;head&gt;` get cleared upon unmounting the component, so make sure each page completely defines what it needs in `&lt;head&gt;`, without making assumptions about what other pages added_</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074505Z" creationid="hirofumiwakasugi" creationdate="20181119T074505Z">
+        <seg>_Note: The contents of `&lt;head&gt;` get cleared upon unmounting the component, so make sure each page completely defines what it needs in `&lt;head&gt;`, without making assumptions about what other pages added_</seg>
       </tuv>
     </tu>
     <tu>
@@ -484,6 +590,16 @@ export default () =&gt; &lt;img src="/static/my-image.png" alt="my image" /&gt;
         <seg>```jsx
 export default () =&gt; &lt;img src="/static/my-image.png" alt="my image" /&gt;
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
+import Head from 'next/head'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074325Z" creationid="hirofumiwakasugi" creationdate="20181119T074325Z">
+        <seg>```jsx
+import Head from 'next/head'</seg>
       </tuv>
     </tu>
     <tu>
