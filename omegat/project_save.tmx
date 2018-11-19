@@ -124,6 +124,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;b&gt;Examples&lt;/b&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T042039Z" creationid="hirofumiwakasugi" creationdate="20181119T042039Z">
+        <seg>&lt;b&gt;例&lt;/b&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;details&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041430Z" creationid="hirofumiwakasugi" creationdate="20181119T041430Z">
@@ -168,6 +176,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041434Z" creationid="hirofumiwakasugi" creationdate="20181119T041434Z">
         <seg>&lt;style jsx&gt;{`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;summary&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T042028Z" creationid="hirofumiwakasugi" creationdate="20181119T042028Z">
+        <seg>&lt;summary&gt;</seg>
       </tuv>
     </tu>
     <tu>
