@@ -400,6 +400,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>_Note: Don't name the `static` directory anything else.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074021Z" creationid="hirofumiwakasugi" creationdate="20181119T074021Z">
+        <seg>_注意: ディレクトリ名は必ず `static` としてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`./static/` is mapped to `/static/` (given you [create a `./static/` directory](#static-file-serving-eg-images) inside your project)</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041424Z" creationid="hirofumiwakasugi" creationdate="20181119T041424Z">
@@ -447,6 +455,18 @@ export default () =&gt; &lt;div&gt;Welcome to next.js!&lt;/div&gt;
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041421Z" creationid="hirofumiwakasugi" creationdate="20181119T041421Z">
         <seg>```jsx
 export default () =&gt; &lt;div&gt;Welcome to next.js!&lt;/div&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
+export default () =&gt; &lt;img src="/static/my-image.png" alt="my image" /&gt;
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T073907Z" creationid="hirofumiwakasugi" creationdate="20181119T073907Z">
+        <seg>```jsx
+export default () =&gt; &lt;img src="/static/my-image.png" alt="my image" /&gt;
 ```</seg>
       </tuv>
     </tu>
