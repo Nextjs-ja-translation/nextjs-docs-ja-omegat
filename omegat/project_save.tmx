@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Static file serving (e.g.: images)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043543Z" creationid="hirofumiwakasugi" creationdate="20181119T043543Z">
+        <seg>### 静的ファイル (例: 画像) のサーブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#### Built-in CSS support</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041430Z" creationid="hirofumiwakasugi" creationdate="20181119T041430Z">
