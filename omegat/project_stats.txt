@@ -1,0 +1,14 @@
+11/19/18 1:14 PM
+Project Statistics
+
+                 	Segments	Words	Characters (without spaces)	Characters (including spaces)	#Files	
+Total:           	    1038	 7480	                      47668	                        53719	     1	
+Remaining:       	     845	 7011	                      44334	                        50113	     1	
+Unique:          	     782	 7048	                      44338	                        50195	     1	
+Unique Remaining:	     727	 6759	                      42534	                        48176	     1	
+
+
+Individual File Statistics:
+
+File Name	Total Segments	Remaining Segments	Unique Segments	Unique Remaining Segments	Total Words	Remaining Words	Unique Words	Unique Remaining Words	Total Characters (without spaces)	Remaining Characters (without spaces)	Unique Characters (without spaces)	Unique Remaining Characters (without spaces)	Total Characters (including spaces)	Remaining Characters (including spaces)	Unique Characters (including spaces)	Unique Remaining Characters (including spaces)	
+docs.mdx 	          1038	               845	            782	                      727	       7480	           7011	        7048	                  6759	                            47668	                                44334	                             44338	                                       42534	                              53719	                                  50113	                               50195	                                         48176	

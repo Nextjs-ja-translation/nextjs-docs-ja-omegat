@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.1.5_3_10490" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"build": "next build",</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041413Z" creationid="hirofumiwakasugi" creationdate="20181119T041413Z">
+        <seg>"build": "next build",</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"dev": "next",</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041412Z" creationid="hirofumiwakasugi" creationdate="20181119T041412Z">
+        <seg>"dev": "next",</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"scripts": {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041412Z" creationid="hirofumiwakasugi" creationdate="20181119T041412Z">
+        <seg>"scripts": {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"start": "next start"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041414Z" creationid="hirofumiwakasugi" creationdate="20181119T041414Z">
+        <seg>"start": "next start"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## How to use</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041407Z" creationid="hirofumiwakasugi" creationdate="20181119T041238Z">
+        <seg>## 使い方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>### Automatic code splitting</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041425Z" creationid="hirofumiwakasugi" creationdate="20181119T041425Z">
+        <seg>### 自動的なコードの分割</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>### CSS</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041428Z" creationid="hirofumiwakasugi" creationdate="20181119T041428Z">
+        <seg>### CSS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>### Setup</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041408Z" creationid="hirofumiwakasugi" creationdate="20181119T041408Z">
+        <seg>### セットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#### Built-in CSS support</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041430Z" creationid="hirofumiwakasugi" creationdate="20181119T041430Z">
+        <seg>#### 組み込みの CSS サポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#### CSS-in-JS</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041443Z" creationid="hirofumiwakasugi" creationdate="20181119T041443Z">
+        <seg>#### CSS-in-JS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Automatic transpilation and bundling (with webpack and babel)
+- Hot code reloading
+- Server rendering and indexing of `./pages`
+- Static file serving.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041424Z" creationid="hirofumiwakasugi" creationdate="20181119T041424Z">
+        <seg>- 完全自動の (webpack と babel を利用した) トランスパイルとビルド
+- コードのホットリローディング
+- `./pages` 配下のファイルの構造化とサーバーサイドレンダリング
+- 静的ファイルの配布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/div&gt;
+)
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041438Z" creationid="hirofumiwakasugi" creationdate="20181119T041438Z">
+        <seg>&lt;/div&gt;
+)
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/pre&gt;
+)
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041428Z" creationid="hirofumiwakasugi" creationdate="20181119T041428Z">
+        <seg>&lt;/pre&gt;
+)
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;details&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041430Z" creationid="hirofumiwakasugi" creationdate="20181119T041430Z">
+        <seg>&lt;details&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;div&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
+        <seg>&lt;div&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;p&gt;scoped!&lt;/p&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
+        <seg>&lt;p&gt;scoped!&lt;/p&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;pre&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041428Z" creationid="hirofumiwakasugi" creationdate="20181119T041428Z">
+        <seg>&lt;pre&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;style global jsx&gt;{`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041436Z" creationid="hirofumiwakasugi" creationdate="20181119T041436Z">
+        <seg>&lt;style global jsx&gt;{`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;style jsx&gt;{`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041434Z" creationid="hirofumiwakasugi" creationdate="20181119T041434Z">
+        <seg>&lt;style jsx&gt;{`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;summary&gt;&lt;b&gt;Examples&lt;/b&gt;&lt;/summary&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041431Z" creationid="hirofumiwakasugi" creationdate="20181119T041431Z">
+        <seg>&lt;summary&gt;&lt;b&gt;例&lt;/b&gt;&lt;/summary&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;ul&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/basic-css"&gt;Basic css&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/details&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041431Z" creationid="hirofumiwakasugi" creationdate="20181119T041431Z">
+        <seg>&lt;ul&gt;&lt;li&gt;&lt;a target="_blank" href="/examples/basic-css"&gt;基本的な CSS&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/details&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>@media (max-width: 600px) {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041435Z" creationid="hirofumiwakasugi" creationdate="20181119T041435Z">
+        <seg>@media (max-width: 600px) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After that, the file-system is the main API.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041418Z" creationid="hirofumiwakasugi" creationdate="20181119T041418Z">
+        <seg>ファイルシステム自体をメインの API として利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Every `.js` file becomes a route that gets automatically processed and rendered.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041419Z" creationid="hirofumiwakasugi" creationdate="20181119T041419Z">
+        <seg>すべての `.js` ファイルがルーティングとして機能し、それらのファイルは自動的に処理されレンダリングされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Every `import` you declare gets bundled and served with each page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041426Z" creationid="hirofumiwakasugi" creationdate="20181119T041426Z">
+        <seg>`import` したものはすべて「各ページごとに」バンドルされて配布されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hello world</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
+        <seg>Hello world</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Install it:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041409Z" creationid="hirofumiwakasugi" creationdate="20181119T041409Z">
+        <seg>以下を実行してインストールします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Please see the [styled-jsx documentation](https://www.npmjs.com/package/styled-jsx) for more examples.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041438Z" creationid="hirofumiwakasugi" creationdate="20181119T041438Z">
+        <seg>[styled-jsx のドキュメント](https://www.npmjs.com/package/styled-jsx) により多くの例が書かれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Populate `./pages/index.js` inside your project:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041420Z" creationid="hirofumiwakasugi" creationdate="20181119T041420Z">
+        <seg>`./pages/index.js` ファイルをプロジェクトに追加してみましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So far, we get:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041423Z" creationid="hirofumiwakasugi" creationdate="20181119T041423Z">
+        <seg>これだけで以下が実現できています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That means pages never load unnecessary code!</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041426Z" creationid="hirofumiwakasugi" creationdate="20181119T041426Z">
+        <seg>これはつまり、ページに必要のないコードが無駄に読み込まれることがないということを意味しています！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The aim is to support "shadow CSS" similar to Web Components, which unfortunately [do not support server-rendering and are JS-only](https://github.com/w3c/webcomponents/issues/71).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041432Z" creationid="hirofumiwakasugi" creationdate="20181119T041432Z">
+        <seg>これは Web Components の「Shadow CSS」に似た機能を提供することを目的としています (残念ながら Shadow CSS は[サーバーサイドレンダリングで利用することができません](https://github.com/w3c/webcomponents/issues/71))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To see how simple this is, check out the [sample app - nextgram](https://github.com/zeit/nextgram)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041425Z" creationid="hirofumiwakasugi" creationdate="20181119T041425Z">
+        <seg>実際にこれがどれだけシンプルにできるかは、[nextgram というサンプルアプリケーション](https://github.com/zeit/nextgram)をチェックしてみるとよいでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use another port, you can run `npm run dev -- -p &lt;your port here&gt;`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041422Z" creationid="hirofumiwakasugi" creationdate="20181119T041422Z">
+        <seg>別のポートに変更したい場合は `npm run dev -- -p &lt;ポート番号&gt;` として起動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We bundle [styled-jsx](https://github.com/zeit/styled-jsx) to provide support for isolated scoped CSS.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041432Z" creationid="hirofumiwakasugi" creationdate="20181119T041432Z">
+        <seg>Next.js には [styled-jsx](https://github.com/zeit/styled-jsx) の機能が同梱されており、スコープを分離した CSS の適用が可能になっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`./static/` is mapped to `/static/` (given you [create a `./static/` directory](#static-file-serving-eg-images) inside your project)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041424Z" creationid="hirofumiwakasugi" creationdate="20181119T041424Z">
+        <seg>`./static/` は `/static/` にマッピングされます (プロジェクトに [`./static/` ディレクトリを作成](#static-file-serving-eg-images)する必要があります。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```bash
+npm install --save next react react-dom
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041410Z" creationid="hirofumiwakasugi" creationdate="20181119T041410Z">
+        <seg>```bash
+npm install --save next react react-dom
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```json
+{</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041411Z" creationid="hirofumiwakasugi" creationdate="20181119T041411Z">
+        <seg>```json
+{</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
+export default () =&gt; (</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041432Z" creationid="hirofumiwakasugi" creationdate="20181119T041432Z">
+        <seg>```jsx
+export default () =&gt; (</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
+export default () =&gt; &lt;div&gt;Welcome to next.js!&lt;/div&gt;
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041421Z" creationid="hirofumiwakasugi" creationdate="20181119T041421Z">
+        <seg>```jsx
+export default () =&gt; &lt;div&gt;Welcome to next.js!&lt;/div&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
+import cowsay from 'cowsay-browser'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041427Z" creationid="hirofumiwakasugi" creationdate="20181119T041427Z">
+        <seg>```jsx
+import cowsay from 'cowsay-browser'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`}&lt;/style&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041436Z" creationid="hirofumiwakasugi" creationdate="20181119T041436Z">
+        <seg>`}&lt;/style&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>and add a script to your package.json like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041411Z" creationid="hirofumiwakasugi" creationdate="20181119T041411Z">
+        <seg>次に、package.json にスクリプトを追加してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>and then just run `npm run dev` and go to `http://localhost:3000`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041422Z" creationid="hirofumiwakasugi" creationdate="20181119T041422Z">
+        <seg>追加したら、`npm run dev` を実行し、`http://localhost:3000` を開いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>background: black;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041437Z" creationid="hirofumiwakasugi" creationdate="20181119T041437Z">
+        <seg>background: black;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>background: blue;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041436Z" creationid="hirofumiwakasugi" creationdate="20181119T041436Z">
+        <seg>background: blue;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>background: red;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041435Z" creationid="hirofumiwakasugi" creationdate="20181119T041435Z">
+        <seg>background: red;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>body {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041437Z" creationid="hirofumiwakasugi" creationdate="20181119T041437Z">
+        <seg>body {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>color: blue;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041434Z" creationid="hirofumiwakasugi" creationdate="20181119T041434Z">
+        <seg>color: blue;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>div {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041435Z" creationid="hirofumiwakasugi" creationdate="20181119T041435Z">
+        <seg>div {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>export default () =&gt; (</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041427Z" creationid="hirofumiwakasugi" creationdate="20181119T041427Z">
+        <seg>export default () =&gt; (</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>p {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041434Z" creationid="hirofumiwakasugi" creationdate="20181119T041434Z">
+        <seg>p {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{cowsay.say({ text: 'hi there!' })}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041428Z" creationid="hirofumiwakasugi" creationdate="20181119T041428Z">
+        <seg>{cowsay.say({ text: 'hi there!' })}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041434Z" creationid="hirofumiwakasugi" creationdate="20181119T041434Z">
+        <seg>}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041414Z" creationid="hirofumiwakasugi" creationdate="20181119T041414Z">
+        <seg>}
+}
+```</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
