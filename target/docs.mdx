@@ -127,9 +127,9 @@ export default () => <p style={{ color: 'red' }}>hi there</p>
 export default () => <img src="/static/my-image.png" alt="my image" />
 ```
 
-_Note: Don't name the `static` directory anything else. The name is required and is the only directory that Next.js uses for serving static assets._
+_注意: ディレクトリ名は必ず `static` としてください。ディレクトリはこの名前である必要があり、Next.js が静的なアセットをサーブするための唯一のディレクトリとなります。_
 
-### Populating `<head>`
+### `<head>` への挿入
 
 <details>
   <summary><b>例</b></summary>
@@ -139,7 +139,7 @@ _Note: Don't name the `static` directory anything else. The name is required and
   </ul>
 </details>
 
-We expose a built-in component for appending elements to the `<head>` of the page.
+ページの `<head>` に要素を追加するために組み込みのコンポーネントを利用することができます。
 
 ```jsx
 import Head from 'next/head'
@@ -155,7 +155,7 @@ export default () => (
 )
 ```
 
-To avoid duplicate tags in your `<head>` you can use the `key` property, which will make sure the tag is only rendered once:
+`<head>` の中で要素が重複するのを避けるために `key` プロパティを使うことができます。これによって、あるタグが一度だけレンダリングされることを保証することができます。
 
 ```jsx
 import Head from 'next/head'
@@ -174,18 +174,18 @@ export default () => (
 )
 ```
 
-In this case only the second `<meta name="viewport" />` is rendered.
+例えば上記の例では、2番目の `<meta name="viewport" />` のみがレンダリングされます。
 
-_Note: The contents of `<head>` get cleared upon unmounting the component, so make sure each page completely defines what it needs in `<head>`, without making assumptions about what other pages added_
+_注意: `<head>` の内容はコンポーネントがアンマウントされる際に消去されるため、各ページは `<head>` で必要とするものをすべて定義しておく必要があります。他のページで追加しているものに依存することはできません。_
 
-### Fetching data and component lifecycle
+### データのフェッチとコンポーネントのライフサイクル
 
 <details>
   <summary><b>例</b></summary>
   <ul><li><a target="_blank" href="/examples/data-fetch">Data fetch</a></li></ul>
 </details>
 
-When you need state, lifecycle hooks or **initial data population** you can export a `React.Component` (instead of a stateless function, like shown above):
+状態、ライフサイクルフック、そして **初期データの設定** を行う必要がある場合、(これまで紹介してきたステートレスな関数ではなく) `React.Component` を export することができます:
 
 ```jsx
 import React from 'react'
@@ -206,9 +206,9 @@ export default class extends React.Component {
 }
 ```
 
-Notice that to load data when the page loads, we use `getInitialProps` which is an [`async`](https://zeit.co/blog/async-and-await) static method. It can asynchronously fetch anything that resolves to a JavaScript plain `Object`, which populates `props`.
+ページが読み込まれるときのデータを設定するために [`async`](https://zeit.co/blog/async-and-await) で static な `getInitialProps` メソッドを使っていることに注目してください。このメソッドは、JavaScript のプレーンな `Object` として扱えるものであれば何でも非同期的に取得して、それを `props` に含めます。
 
-Data returned from `getInitialProps` is serialized when server rendering, similar to a `JSON.stringify`. Make sure the returned object from `getInitialProps` is a plain `Object` and not using `Date`, `Map` or `Set`.
+サーバーサイドレンダリング時には `getInitialProps` の戻り値のデータはシリアライズされます。ちょうど `JSON.stringify` と似た感じです。`getInitialProps` が返すオブジェクトは必ず「プレーンな `Object`」でなければならず、`Date`,/ `Map` / `Set` は使用できないことに注意してください。
 
 For the initial page load, `getInitialProps` will execute on the server only. `getInitialProps` will only be executed on the client when navigating to a different route via the `Link` component or using the routing APIs.
 
