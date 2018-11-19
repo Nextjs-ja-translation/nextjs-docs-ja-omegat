@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Populating `&lt;head&gt;`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074117Z" creationid="hirofumiwakasugi" creationdate="20181119T074117Z">
+        <seg>### Populating `&lt;head&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>### Setup</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041408Z" creationid="hirofumiwakasugi" creationdate="20181119T041408Z">
@@ -340,6 +348,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041432Z" creationid="hirofumiwakasugi" creationdate="20181119T041432Z">
         <seg>これは Web Components の「Shadow CSS」に似た機能を提供することを目的としています (残念ながら Shadow CSS は[サーバーサイドレンダリングで利用することができません](https://github.com/w3c/webcomponents/issues/71))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name is required and is the only directory that Next.js uses for serving static assets._</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074117Z" creationid="hirofumiwakasugi" creationdate="20181119T074117Z">
+        <seg>ディレクトリはこの名前である必要があり、Next.js が静的なアセットをサーブするための唯一のディレクトリとなります。_</seg>
       </tuv>
     </tu>
     <tu>
