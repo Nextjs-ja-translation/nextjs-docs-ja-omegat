@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050620Z" creationid="hirofumiwakasugi" creationdate="20181121T050620Z">
+        <seg>)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Automatic transpilation and bundling (with webpack and babel)
 - Hot code reloading
 - Server rendering and indexing of `./pages`
@@ -132,10 +140,32 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- [@zeit/next-css](https://github.com/zeit/next-plugins/tree/master/packages/next-css)
+- [@zeit/next-sass](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)
+- [@zeit/next-less](https://github.com/zeit/next-plugins/tree/master/packages/next-less)
+- [@zeit/next-stylus](https://github.com/zeit/next-plugins/tree/master/packages/next-stylus)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050610Z" creationid="hirofumiwakasugi" creationdate="20181121T050610Z">
+        <seg>- [@zeit/next-css](https://github.com/zeit/next-plugins/tree/master/packages/next-css)
+- [@zeit/next-sass](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)
+- [@zeit/next-less](https://github.com/zeit/next-plugins/tree/master/packages/next-less)
+- [@zeit/next-stylus](https://github.com/zeit/next-plugins/tree/master/packages/next-stylus)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/Head&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074328Z" creationid="hirofumiwakasugi" creationdate="20181119T074328Z">
         <seg>&lt;/Head&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/div&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050620Z" creationid="hirofumiwakasugi" creationdate="20181121T050620Z">
+        <seg>&lt;/div&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -160,6 +190,14 @@
         <seg>&lt;/pre&gt;
 )
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/summary&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050606Z" creationid="hirofumiwakasugi" creationdate="20181121T050606Z">
+        <seg>&lt;/summary&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -210,6 +248,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
         <seg>&lt;div&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/head-elements"&gt;Head elements&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050613Z" creationid="hirofumiwakasugi" creationdate="20181121T050613Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/head-elements"&gt;Head elements&lt;/a&gt;&lt;/li&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -306,6 +352,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074327Z" creationid="hirofumiwakasugi" creationdate="20181119T074327Z">
         <seg>&lt;title&gt;My page title&lt;/title&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;ul&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050612Z" creationid="hirofumiwakasugi" creationdate="20181121T050612Z">
+        <seg>&lt;ul&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -420,6 +474,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hello World {this.props.userAgent}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050620Z" creationid="hirofumiwakasugi" creationdate="20181121T050620Z">
+        <seg>Hello World {this.props.userAgent}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hello world</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
@@ -468,6 +530,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Next stars: {stars}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050621Z" creationid="hirofumiwakasugi" creationdate="20181121T050621Z">
+        <seg>Next stars: {stars}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Notice that to load data when the page loads, we use `getInitialProps` which is an [`async`](https://zeit.co/blog/async-and-await) static method.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075422Z" creationid="hirofumiwakasugi" creationdate="20181119T075422Z">
@@ -480,6 +550,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T095837Z" creationid="hirofumiwakasugi" creationdate="20181119T095824Z">
         <seg>利用できるのは `pages` に限られます。_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Page.getInitialProps = async ({ req }) =&gt; {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050623Z" creationid="hirofumiwakasugi" creationdate="20181121T050623Z">
+        <seg>Page.getInitialProps = async ({ req }) =&gt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -719,6 +797,18 @@ export default () =&gt; &lt;img src="/static/my-image.png" alt="my image" /&gt;
     <tu>
       <tuv lang="EN-US">
         <seg>```jsx
+export default () =&gt; &lt;p style={{ color: 'red' }}&gt;hi there&lt;/p&gt;
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050608Z" creationid="hirofumiwakasugi" creationdate="20181121T050608Z">
+        <seg>```jsx
+export default () =&gt; &lt;p style={{ color: 'red' }}&gt;hi there&lt;/p&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
 import Head from 'next/head'</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074325Z" creationid="hirofumiwakasugi" creationdate="20181119T074325Z">
@@ -744,6 +834,14 @@ import cowsay from 'cowsay-browser'</seg>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041427Z" creationid="hirofumiwakasugi" creationdate="20181119T041427Z">
         <seg>```jsx
 import cowsay from 'cowsay-browser'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`getInitialProps` receives a context object with the following properties:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050715Z" creationid="hirofumiwakasugi" creationdate="20181121T050715Z">
+        <seg>`getInitialProps` は context オブジェクトを受け取り、それは以下のプロパティを含みます:</seg>
       </tuv>
     </tu>
     <tu>
@@ -820,6 +918,30 @@ import cowsay from 'cowsay-browser'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>const json = await res.json()</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050624Z" creationid="hirofumiwakasugi" creationdate="20181121T050624Z">
+        <seg>const json = await res.json()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>const res = await fetch('https://api.github.com/repos/zeit/next.js')</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050624Z" creationid="hirofumiwakasugi" creationdate="20181121T050624Z">
+        <seg>const res = await fetch('https://api.github.com/repos/zeit/next.js')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>const userAgent = req ?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050616Z" creationid="hirofumiwakasugi" creationdate="20181121T050616Z">
+        <seg>const userAgent = req ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>div {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041435Z" creationid="hirofumiwakasugi" creationdate="20181119T041435Z">
@@ -836,6 +958,16 @@ import cowsay from 'cowsay-browser'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>export default Page
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050626Z" creationid="hirofumiwakasugi" creationdate="20181121T050626Z">
+        <seg>export default Page
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>export default class extends React.Component {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075257Z" creationid="hirofumiwakasugi" creationdate="20181119T075257Z">
@@ -848,6 +980,56 @@ import cowsay from 'cowsay-browser'</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041434Z" creationid="hirofumiwakasugi" creationdate="20181119T041434Z">
         <seg>p {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>render() {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050618Z" creationid="hirofumiwakasugi" creationdate="20181121T050618Z">
+        <seg>render() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>req.headers['user-agent'] : navigator.userAgent</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050617Z" creationid="hirofumiwakasugi" creationdate="20181121T050617Z">
+        <seg>req.headers['user-agent'] : navigator.userAgent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return (</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050618Z" creationid="hirofumiwakasugi" creationdate="20181121T050618Z">
+        <seg>return (</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return { stars: json.stargazers_count }
+}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050625Z" creationid="hirofumiwakasugi" creationdate="20181121T050625Z">
+        <seg>return { stars: json.stargazers_count }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return { userAgent }</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050617Z" creationid="hirofumiwakasugi" creationdate="20181121T050617Z">
+        <seg>return { userAgent }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>static async getInitialProps({ req }) {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050615Z" creationid="hirofumiwakasugi" creationdate="20181121T050615Z">
+        <seg>static async getInitialProps({ req }) {</seg>
       </tuv>
     </tu>
     <tu>
