@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;/Link&gt;{' '}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103414Z" creationid="hirofumiwakasugi" creationdate="20181121T103414Z">
+        <seg>&lt;/Link&gt;{' '}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/div&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050620Z" creationid="hirofumiwakasugi" creationdate="20181121T050620Z">
@@ -256,6 +264,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;Link href="/about"&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103413Z" creationid="hirofumiwakasugi" creationdate="20181121T103413Z">
+        <seg>&lt;Link href="/about"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a&gt;here&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103413Z" creationid="hirofumiwakasugi" creationdate="20181121T103413Z">
+        <seg>&lt;a&gt;here&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b&gt;Examples&lt;/b&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T042039Z" creationid="hirofumiwakasugi" creationdate="20181119T042039Z">
@@ -292,6 +316,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050613Z" creationid="hirofumiwakasugi" creationdate="20181121T050613Z">
         <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/head-elements"&gt;Head elements&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/hello-world"&gt;Hello World&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103308Z" creationid="hirofumiwakasugi" creationdate="20181121T103308Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/hello-world"&gt;Hello World&lt;/a&gt;&lt;/li&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -458,6 +490,30 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041418Z" creationid="hirofumiwakasugi" creationdate="20181119T041418Z">
         <seg>ファイルシステム自体をメインの API として利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Click{' '}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103413Z" creationid="hirofumiwakasugi" creationdate="20181121T103413Z">
+        <seg>Click{' '}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Client-side transitions between routes can be enabled via a `&lt;Link&gt;` component.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103352Z" creationid="hirofumiwakasugi" creationdate="20181121T103352Z">
+        <seg>クライアントサイドでのルートの遷移は `&lt;Link&gt;` コンポーネントによって実現されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Consider these two pages:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103411Z" creationid="hirofumiwakasugi" creationdate="20181121T103411Z">
+        <seg>以下の2つのページがある場合を考えてみてください:</seg>
       </tuv>
     </tu>
     <tu>
@@ -758,6 +814,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>__Note: use [`&lt;Link prefetch&gt;`](#prefetching-pages) for maximum performance, to link and prefetch in the background at the same time__</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103601Z" creationid="hirofumiwakasugi" creationdate="20181121T103601Z">
+        <seg>__注意: 最大限にパフォーマンスを発揮したければ [`&lt;Link prefetch&gt;`](#prefetching-pages) の利用を検討してください。これによって、リンクとバックグラウンドでのプリフェッチを同時に同時に実現することが可能になります__</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`./static/` is mapped to `/static/` (given you [create a `./static/` directory](#static-file-serving-eg-images) inside your project)</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041424Z" creationid="hirofumiwakasugi" creationdate="20181119T041424Z">
@@ -784,6 +848,32 @@ npm install --save next react react-dom
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041411Z" creationid="hirofumiwakasugi" creationdate="20181119T041411Z">
         <seg>```json
 {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
+// pages/about.js
+export default () =&gt; &lt;p&gt;Welcome to About!&lt;/p&gt;
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103420Z" creationid="hirofumiwakasugi" creationdate="20181121T103420Z">
+        <seg>```jsx
+// pages/about.js
+export default () =&gt; &lt;p&gt;Welcome to About!&lt;/p&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
+// pages/index.js
+import Link from 'next/link'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103412Z" creationid="hirofumiwakasugi" creationdate="20181121T103412Z">
+        <seg>```jsx
+// pages/index.js
+import Link from 'next/link'</seg>
       </tuv>
     </tu>
     <tu>
@@ -1066,6 +1156,14 @@ import cowsay from 'cowsay-browser'</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050615Z" creationid="hirofumiwakasugi" creationdate="20181121T050615Z">
         <seg>static async getInitialProps({ req }) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to read more</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103420Z" creationid="hirofumiwakasugi" creationdate="20181121T103420Z">
+        <seg>to read more</seg>
       </tuv>
     </tu>
     <tu>
