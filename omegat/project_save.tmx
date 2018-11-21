@@ -502,6 +502,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Client-side routing behaves exactly like the browser:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103624Z" creationid="hirofumiwakasugi" creationdate="20181121T103624Z">
+        <seg>クライアントサイドでのルーティングはブラウザとほぼ同じです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Client-side transitions between routes can be enabled via a `&lt;Link&gt;` component.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103352Z" creationid="hirofumiwakasugi" creationdate="20181121T103352Z">
