@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>##### Forcing the Link to expose `href` to its child</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T110727Z" creationid="hirofumiwakasugi" creationdate="20181121T110727Z">
+        <seg>##### Forcing the Link to expose `href` to its child</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050620Z" creationid="hirofumiwakasugi" creationdate="20181121T050620Z">
@@ -598,12 +606,28 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, sometimes, you’ll want to pass an `&lt;a&gt;` tag inside of a wrapper and the `Link` won’t recognize it as a *hyperlink*, and, consequently, won’t transfer its `href` to the child.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T110729Z" creationid="hirofumiwakasugi" creationdate="20181121T110729Z">
+        <seg>However, sometimes, you’ll want to pass an `&lt;a&gt;` tag inside of a wrapper and the `Link` won’t recognize it as a *hyperlink*, and, consequently, won’t transfer its `href` to the child.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If an error occurs, `_error.js` is rendered
 3.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103752Z" creationid="hirofumiwakasugi" creationdate="20181121T103729Z">
         <seg>エラーが発生した場合は`_error.js` がレンダリングされる
 3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If child is an `&lt;a&gt;` tag and doesn't have a href attribute we specify it so that the repetition is not needed by the user.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T110757Z" creationid="hirofumiwakasugi" creationdate="20181121T110757Z">
+        <seg>If child is an `&lt;a&gt;` tag and doesn't have a href attribute we specify it so that the repetition is not needed by the user.</seg>
       </tuv>
     </tu>
     <tu>
