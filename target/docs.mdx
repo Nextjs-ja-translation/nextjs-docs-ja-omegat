@@ -210,18 +210,18 @@ export default class extends React.Component {
 
 サーバーサイドレンダリング時には `getInitialProps` の戻り値のデータはシリアライズされます。ちょうど `JSON.stringify` と似た感じです。`getInitialProps` が返すオブジェクトは必ず「プレーンな `Object`」でなければならず、`Date`,/ `Map` / `Set` は使用できないことに注意してください。
 
-For the initial page load, `getInitialProps` will execute on the server only. `getInitialProps` will only be executed on the client when navigating to a different route via the `Link` component or using the routing APIs.
+最初にページが読み込まれるとき、`getInitialProps` はサーバーサイドでのみ実行されます。`getInitialProps` がクライアントサイドで実行されるのは、`Link` コンポーネントかルーティング API を用いて別のルートに移動した場合のみです。
 
-_Note: `getInitialProps` can **not** be used in children components. Only in `pages`._
-
-<br/>
-
-> If you are using some server only modules inside `getInitialProps`, make sure to [import them properly](https://arunoda.me/blog/ssr-and-server-only-modules).
-> Otherwise, it'll slow down your app.
+_注意: `getInitialProps` を子コンポーネントで利用することは**できません**。利用できるのは `pages` に限られます。_
 
 <br/>
 
-You can also define the `getInitialProps` lifecycle method for stateless components:
+> もし `getInitialProps` の中でサーバーのみのモジュールを使っている場合、それらを[正しく import](https://arunoda.me/blog/ssr-and-server-only-modules) していないと
+> アプリケーションが遅くなってしまうため注意してください。
+
+<br/>
+
+ステートレスなコンポーネントでも `getInitialProps` ライフサイクルメソッドを定義することができます:
 
 ```jsx
 const Page = ({ stars }) =>
