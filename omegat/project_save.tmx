@@ -486,6 +486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After 1 and 2 complete, `pushState` is performed and the new component is rendered</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103822Z" creationid="hirofumiwakasugi" creationdate="20181121T103822Z">
+        <seg>1 と 2 が完了したら `pushState` が実行されて新しいコンポーネントがレンダリングされる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After that, the file-system is the main API.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041418Z" creationid="hirofumiwakasugi" creationdate="20181119T041418Z">
@@ -586,6 +594,24 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
         <seg>Hello world</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an error occurs, `_error.js` is rendered
+3.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103752Z" creationid="hirofumiwakasugi" creationdate="20181121T103729Z">
+        <seg>エラーが発生した場合は`_error.js` がレンダリングされる
+3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If it defines `getInitialProps`, data is fetched.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103732Z" creationid="hirofumiwakasugi" creationdate="20181121T103716Z">
+        <seg>もし `getInitialProps` が定義されていればデータを取得する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -702,6 +728,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The component is fetched
+2.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103652Z" creationid="hirofumiwakasugi" creationdate="20181121T103652Z">
+        <seg>コンポーネントを取得する
+2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name is required and is the only directory that Next.js uses for serving static assets._</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074117Z" creationid="hirofumiwakasugi" creationdate="20181119T074117Z">
@@ -722,6 +758,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074456Z" creationid="hirofumiwakasugi" creationdate="20181119T074456Z">
         <seg>`&lt;head&gt;` の中で要素が重複するのを避けるために `key` プロパティを使うことができます。これによって、あるタグが一度だけレンダリングされることを保証することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To inject the `pathname`, `query` or `asPath` in your component, you can use [withRouter](#using-a-higher-order-component).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103917Z" creationid="hirofumiwakasugi" creationdate="20181121T103917Z">
+        <seg>コンポーネントの内部で `pathname` / `query` / `asPath` を弄りたいときは [withRouter](#using-a-higher-order-component) を使ってください。</seg>
       </tuv>
     </tu>
     <tu>
