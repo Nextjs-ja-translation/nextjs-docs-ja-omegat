@@ -170,12 +170,12 @@
 - `jsonPageRes` - [Fetch Response](https://developer.mozilla.org/en-US/docs/Web/API/Response) object (client only)
 - `err` - Error object if any error is encountered during the rendering</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T051019Z" creationid="hirofumiwakasugi" creationdate="20181121T050817Z">
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103013Z" creationid="hirofumiwakasugi" creationdate="20181121T050817Z">
         <seg>- `pathname` - URL のパス部分
 - `query` - オブジェクトとしてパースされたURLのクエリストリング部分
 - `asPath` - ブラウザに表示される実際のパスの `文字列` (クエリ部分含む)
 - `req` - HTTP リクエストのオブジェクト (サーバーのみ)
-- `res` - HTTP レスポンスのオブジェクト (サーバーのみ)
+- `res` - HTTP レスポンスのオブジェクト (サーバーのみ)ba
 - `jsonPageRes` - [Fetch Response](https://developer.mozilla.org/en-US/docs/Web/API/Response) object (client only)
 - `err` - Error object if any error is encountered during the rendering</seg>
       </tuv>
