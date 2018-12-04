@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Reusing the built-in error page</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161540Z" creationid="Tetsutaro" creationdate="20181204T161540Z">
+        <seg>### 組み込みのエラーページを再利用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>### Routing</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050819Z" creationid="hirofumiwakasugi" creationdate="20181121T050819Z">
@@ -768,6 +776,22 @@
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100236Z" creationid="Tetsutaro" creationdate="20181204T100236Z">
         <seg>もし、すべてのページで共通のコンポーネ
 ント(メニューやツールバーのような)が必要なら、代わりに`App`コンポーネントを使用して下さい。__</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to render the built-in error page you can by using `next/error`:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161637Z" creationid="Tetsutaro" creationdate="20181204T161637Z">
+        <seg>組み込みのエラーページをレンダリングしたいのならば、`next/error`を使用すれば可能です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you wish to override it, define a `_error.js` in the pages folder:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161449Z" creationid="Tetsutaro" creationdate="20181204T161449Z">
+        <seg>もしデフォルトのエラーコンポーネントをオーバーライドしたいのなら、`_error.js`をpagesフォルダーの中に定義して下さい:</seg>
       </tuv>
     </tu>
     <tu>
