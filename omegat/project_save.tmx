@@ -142,15 +142,6 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>#### CSS-in-JS</seg>
-      </tuv>
-      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161029Z" creationid="hirofumiwakasugi" creationdate="20181119T041443Z">
-        <seg>Custom error handling
-#### CSS-in-JS</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>#### Importing CSS / Sass / Less / Stylus files</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043336Z" creationid="hirofumiwakasugi" creationdate="20181119T043336Z">
