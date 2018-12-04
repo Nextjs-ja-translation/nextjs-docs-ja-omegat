@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>##### With URL object</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T091905Z" creationid="Tetsutaro" creationdate="20181204T091905Z">
+        <seg>##### URLオブジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050620Z" creationid="hirofumiwakasugi" creationdate="20181121T050620Z">
