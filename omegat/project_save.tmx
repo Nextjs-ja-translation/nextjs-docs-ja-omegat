@@ -64,16 +64,24 @@
       <tuv lang="EN-US">
         <seg>### Custom `&lt;App&gt;`</seg>
       </tuv>
-      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T092613Z" creationid="Tetsutaro" creationdate="20181204T092613Z">
-        <seg>### カスタム `&lt;App&gt;`</seg>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161127Z" creationid="Tetsutaro" creationdate="20181204T092613Z">
+        <seg>### `&lt;App&gt;`のカスタマイズ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>### Custom `&lt;Document&gt;`</seg>
       </tuv>
-      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095713Z" creationid="Tetsutaro" creationdate="20181204T095713Z">
-        <seg>### カスタム `&lt;Document&gt;`</seg>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161140Z" creationid="Tetsutaro" creationdate="20181204T095713Z">
+        <seg>### `&lt;Document&gt;`のカスタマイズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>### Custom error handling</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161056Z" creationid="Tetsutaro" creationdate="20181204T161056Z">
+        <seg>### エラーハンドリングのカスタマイズ</seg>
       </tuv>
     </tu>
     <tu>
@@ -128,8 +136,9 @@
       <tuv lang="EN-US">
         <seg>#### CSS-in-JS</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041443Z" creationid="hirofumiwakasugi" creationdate="20181119T041443Z">
-        <seg>#### CSS-in-JS</seg>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161029Z" creationid="hirofumiwakasugi" creationdate="20181119T041443Z">
+        <seg>Custom error handling
+#### CSS-in-JS</seg>
       </tuv>
     </tu>
     <tu>
@@ -260,6 +269,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181204T103630Z" creationid="hirofumiwakasugi" creationdate="20181204T103630Z">
         <seg>1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>404 or 500 errors are handled both client and server side by a default component `error.js`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161329Z" creationid="Tetsutaro" creationdate="20181204T161329Z">
+        <seg>ステータスコードが404もしくは500のエラーは、`error.js`というデフォルトのコンポーネントによってクライアントとサーバーサイドの両方でハンドリングされます。</seg>
       </tuv>
     </tu>
     <tu>
