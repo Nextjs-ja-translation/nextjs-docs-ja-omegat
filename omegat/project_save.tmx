@@ -192,10 +192,10 @@
 - Is used to change the initial server side rendered document markup
 - Commonly used to implement server side rendering for css-in-js libraries like [styled-components](./examples/with-styled-components), [glamorous](./examples/with-glamorous) or [emotion](with-emotion).</seg>
       </tuv>
-      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095808Z" creationid="Tetsutaro" creationdate="20181204T095808Z">
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095831Z" creationid="Tetsutaro" creationdate="20181204T095808Z">
         <seg>- サーバーサイドでレンダリングされる
 - 最初のサーバーサイドでレンダリングされる文書マークアップの内容を変更する
-- CSS-in-JSライブラリのためのサーバーサイドレンダリングの実行。CSS-in-JSライブラリとは[styled-components](./examples/with-styled-components), [glamorous](./examples/with-glamorous)&gt;や[emotion](with-emotion)。そしてNext.jsでデフォルトで使用される[styled-jsx](https://github.com/zeit/styled-jsx)です。</seg>
+- CSS-in-JSライブラリのためのサーバーサイドレンダリングの実行。CSS-in-JSライブラリとは[styled-components](./examples/with-styled-components), [glamorous](./examples/with-glamorous)&gt;や[emotion](with-emotion)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -244,6 +244,14 @@
 - `res` - HTTP レスポンスオブジェクト (サーバーのみ)
 - `jsonPageRes` - [Fetch のレスポンス](https://developer.mozilla.org/en-US/docs/Web/API/Response)オブジェクト (クライアントのみ)
 - `err` - エラーオブジェクト (もしレンダリング中にエラーが発生した場合)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- `renderPage` (`Function`) a callback that executes the actual React rendering logic (synchronously).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100033Z" creationid="Tetsutaro" creationdate="20181204T100033Z">
+        <seg>- `renderPage` (`Function`)は実際のReactのレンダリングロジック（同期的）を実行するコールバックです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -648,6 +656,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, you never include `&lt;html&gt;`, `&lt;body&gt;`, etc.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095853Z" creationid="Tetsutaro" creationdate="20181204T095853Z">
+        <seg>例えば、`&lt;html&gt;`, `&lt;body&gt;`などはインクルードする必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For the initial page load, `getInitialProps` will execute on the server only.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T095608Z" creationid="hirofumiwakasugi" creationdate="20181119T095608Z">
@@ -746,6 +762,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's useful to decorate this function in order to support server-rendering wrappers like Aphrodite's [`renderStatic`](https://github.com/Khan/aphrodite#server-side-rendering)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100151Z" creationid="Tetsutaro" creationdate="20181204T100151Z">
+        <seg>Aphroditeの[`renderStatic`](https://github.com/Khan/aphrodite#server-side-rendering)のようなサーバーレンダリングのラッパーをサポートするためには、この関数を装飾することが便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Make sure the returned object from `getInitialProps` is a plain `Object` and not using `Date`, `Map` or `Set`.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075815Z" creationid="hirofumiwakasugi" creationdate="20181119T075815Z">
@@ -794,6 +818,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Pages in `Next.js` skip the definition of the surrounding document's markup.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095845Z" creationid="Tetsutaro" creationdate="20181204T095845Z">
+        <seg>`Next.js`のページでは、文書のマークアップまわりの定義はスキップします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Please see the [styled-jsx documentation](https://www.npmjs.com/package/styled-jsx) for more examples.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041438Z" creationid="hirofumiwakasugi" creationdate="20181119T041438Z">
@@ -822,6 +854,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041426Z" creationid="hirofumiwakasugi" creationdate="20181119T041426Z">
         <seg>これはつまり、ページに必要のないコードが無駄に読み込まれることがないということを意味しています！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The `ctx` object is equivalent to the one received in all [`getInitialProps`](#fetching-data-and-component-lifecycle) hooks, with one addition:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100011Z" creationid="Tetsutaro" creationdate="20181204T100011Z">
+        <seg>`ctx`オブジェクトは、すべての[`getInitialProps`](#fetching-data-and-component-lifecycle)フックで受け取るオブジェクトと同等です。さらに加えて:</seg>
       </tuv>
     </tu>
     <tu>
@@ -872,6 +912,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103917Z" creationid="hirofumiwakasugi" creationdate="20181121T103917Z">
         <seg>コンポーネントの内部で `pathname` / `query` / `asPath` を弄りたいときは [withRouter](#using-a-higher-order-component) を使ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To override that default behavior, you must create a file at `./pages/_document.js`, where you can extend the `Document` class:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095914Z" creationid="Tetsutaro" creationdate="20181204T095914Z">
+        <seg>通常の挙動をオーバーライドするには、`./pages/_document.js`にファイルを作成しなくてはいけません。このファイルでは`Document`クラスを以下のように拡張できます:</seg>
       </tuv>
     </tu>
     <tu>
@@ -972,6 +1020,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>[styled-jsx](https://github.com/zeit/styled-jsx) is included with Next.js by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095835Z" creationid="Tetsutaro" creationdate="20181204T095835Z">
+        <seg>そしてNext.jsでデフォルトで使用される[styled-jsx](https://github.com/zeit/styled-jsx)です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>_Note: Don't name the `static` directory anything else.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074021Z" creationid="hirofumiwakasugi" creationdate="20181119T074021Z">
@@ -1030,6 +1086,18 @@ npm install --save next react react-dom
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041411Z" creationid="hirofumiwakasugi" creationdate="20181119T041411Z">
         <seg>```json
 {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
+// _document is only rendered on the server side and not on the client side
+// Event handlers like onClick can't be added to this file</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095928Z" creationid="Tetsutaro" creationdate="20181204T095928Z">
+        <seg>```jsx
+// _documentはサーバーサイドのみでレンダリングされ、クライアントサイドでは使われません
+// onClickのようなイベントハンドラはこのファイルには書けません</seg>
       </tuv>
     </tu>
     <tu>
