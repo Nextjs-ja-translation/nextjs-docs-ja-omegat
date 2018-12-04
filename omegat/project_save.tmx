@@ -256,6 +256,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181204T103630Z" creationid="hirofumiwakasugi" creationdate="20181204T103630Z">
+        <seg>1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/Head&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074328Z" creationid="hirofumiwakasugi" creationdate="20181119T074328Z">
