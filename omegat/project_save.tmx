@@ -720,6 +720,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Next.js uses the `App` component to initialize pages.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095512Z" creationid="Tetsutaro" creationdate="20181204T095512Z">
+        <seg>Next.jsはページを初期化するために`App`コンポーネントを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Notice that to load data when the page loads, we use `getInitialProps` which is an [`async`](https://zeit.co/blog/async-and-await) static method.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075422Z" creationid="hirofumiwakasugi" creationdate="20181119T075422Z">
