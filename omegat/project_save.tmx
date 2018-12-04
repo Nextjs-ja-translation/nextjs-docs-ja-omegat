@@ -640,6 +640,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do _not_ add application logic here.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100232Z" creationid="Tetsutaro" creationdate="20181204T100232Z">
+        <seg>アプリケーションロジックをここに追加_しないで_ください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every `.js` file becomes a route that gets automatically processed and rendered.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041419Z" creationid="hirofumiwakasugi" creationdate="20181119T041419Z">
@@ -726,6 +734,15 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103732Z" creationid="hirofumiwakasugi" creationdate="20181121T103716Z">
         <seg>もし `getInitialProps` が定義されていればデータを取得する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need shared components in all your pages (like a menu or a toolbar), take a look at the `App` component instead.__</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100236Z" creationid="Tetsutaro" creationdate="20181204T100236Z">
+        <seg>もし、すべてのページで共通のコンポーネ
+ント(メニューやツールバーのような)が必要なら、代わりに`App`コンポーネントを使用して下さい。__</seg>
       </tuv>
     </tu>
     <tu>
@@ -1048,6 +1065,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T095755Z" creationid="hirofumiwakasugi" creationdate="20181119T095755Z">
         <seg>_注意: `getInitialProps` を子コンポーネントで利用することは**できません**。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>__Note: React-components outside of `&lt;Main /&gt;` will not be initialised by the browser.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100220Z" creationid="Tetsutaro" creationdate="20181204T100220Z">
+        <seg>__注意: Reactコンポーネントの外にある`&lt;Main /&gt;`は、ブラウザによって初期化されません。</seg>
       </tuv>
     </tu>
     <tu>
