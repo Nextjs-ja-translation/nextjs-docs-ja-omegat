@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Custom `&lt;App&gt;`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T092613Z" creationid="Tetsutaro" creationdate="20181204T092613Z">
+        <seg>### カスタム `&lt;App&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>### Fetching data and component lifecycle</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074853Z" creationid="hirofumiwakasugi" creationdate="20181119T074530Z">
@@ -348,6 +356,22 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074239Z" creationid="hirofumiwakasugi" creationdate="20181119T074239Z">
         <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/layout-component"&gt;Layout component&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/with-app-layout"&gt;Using `_app.js` for layout&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T092746Z" creationid="Tetsutaro" creationdate="20181204T092746Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/with-app-layout"&gt;レイアウトとして`_app.js`を使用する&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/with-componentdidcatch"&gt;Using `_app.js` to override `componentDidCatch`&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T092636Z" creationid="Tetsutaro" creationdate="20181204T092636Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/with-componentdidcatch"&gt;`componentDidCatch`をオーバーライドするために`_app.js`を使用する&lt;/a&gt;&lt;/li&gt;</seg>
       </tuv>
     </tu>
     <tu>
