@@ -593,6 +593,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; If you have created a custom error page you have to import your own `_error` component instead of `next/error`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161945Z" creationid="Tetsutaro" creationdate="20181204T161945Z">
+        <seg>&gt; もしカスタムエラーページを作ったのならば、`next/error`ではなく、独自の`_error`コンポーネントをインポートしなければいけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; Otherwise, it'll slow down your app.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T100047Z" creationid="hirofumiwakasugi" creationdate="20181119T100047Z">
