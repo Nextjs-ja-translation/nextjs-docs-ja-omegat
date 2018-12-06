@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#### CSS-in-JS</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181206T020955Z" creationid="hirofumiwakasugi" creationdate="20181206T020955Z">
+        <seg>#### CSS-in-JS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#### Importing CSS / Sass / Less / Stylus files</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043336Z" creationid="hirofumiwakasugi" creationdate="20181119T043336Z">
