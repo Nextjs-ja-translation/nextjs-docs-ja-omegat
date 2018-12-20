@@ -1307,6 +1307,15 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You may also wish to configure the client-side Router to disallow client-side redirects to filename
+routes; please refer to [Intercepting `popstate`](#intercepting-popstate).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063418Z" creationid="hirofumiwakasugi" creationdate="20181220T063418Z">
+        <seg>クライアントサイドでのファイル名に基づくルーティングにリダイレクトすることを禁じるようにクライアントサイドのルーターを設定したいと思うでしょう。その時は [Intercepting `popstate`](#intercepting-popstate)を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>[styled-jsx](https://github.com/zeit/styled-jsx) is included with Next.js by default.</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095835Z" creationid="Tetsutaro" creationdate="20181204T095835Z">
