@@ -22,10 +22,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>"dev": "node server.js",</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062958Z" creationid="hirofumiwakasugi" creationdate="20181220T062958Z">
+        <seg>"dev": "node server.js",</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>"scripts": {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041412Z" creationid="hirofumiwakasugi" creationdate="20181119T041412Z">
         <seg>"scripts": {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"start": "NODE_ENV=production node server.js"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062959Z" creationid="hirofumiwakasugi" creationdate="20181220T062959Z">
+        <seg>"start": "NODE_ENV=production node server.js"</seg>
       </tuv>
     </tu>
     <tu>
@@ -82,6 +98,14 @@
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161056Z" creationid="Tetsutaro" creationdate="20181204T161056Z">
         <seg>### エラーハンドリングのカスタマイズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>### Custom server and routing</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062818Z" creationid="hirofumiwakasugi" creationdate="20181220T062818Z">
+        <seg>### カスタムサーバーとルーティング</seg>
       </tuv>
     </tu>
     <tu>
@@ -272,6 +296,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>// Be sure to pass `true` as the second argument to `url.parse`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063022Z" creationid="hirofumiwakasugi" creationdate="20181220T063022Z">
+        <seg>// Be sure to pass `true` as the second argument to `url.parse`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>// Make sure the syntax and sources this file requires are compatible with the current node version you are running
+// See https://github.com/zeit/next.js/issues/1245 for discussions on Universal Webpack or universal Babel
+const { createServer } = require('http')
+const { parse } = require('url')
+const next = require('next')</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063020Z" creationid="hirofumiwakasugi" creationdate="20181220T063020Z">
+        <seg>// Make sure the syntax and sources this file requires are compatible with the current node version you are running
+// See https://github.com/zeit/next.js/issues/1245 for discussions on Universal Webpack or universal Babel
+const { createServer } = require('http')
+const { parse } = require('url')
+const next = require('next')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>// This tells it to parse the query portion of the URL.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063022Z" creationid="hirofumiwakasugi" creationdate="20181220T063022Z">
+        <seg>// This tells it to parse the query portion of the URL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181204T103630Z" creationid="hirofumiwakasugi" creationdate="20181204T103630Z">
@@ -410,6 +466,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/custom-server"&gt;Basic custom server&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062844Z" creationid="hirofumiwakasugi" creationdate="20181220T062844Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/custom-server"&gt;基本的なカスタムサーバー&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/custom-server-express"&gt;Express integration&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062849Z" creationid="hirofumiwakasugi" creationdate="20181220T062849Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/custom-server-express"&gt;Expressとの統合&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/custom-server-hapi"&gt;Hapi integration&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062857Z" creationid="hirofumiwakasugi" creationdate="20181220T062857Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/custom-server-hapi"&gt;Hapiとの統合&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/custom-server-koa"&gt;Koa integration&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062909Z" creationid="hirofumiwakasugi" creationdate="20181220T062909Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/custom-server-koa"&gt;Koaとの統合&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/head-elements"&gt;Head elements&lt;/a&gt;&lt;/li&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050613Z" creationid="hirofumiwakasugi" creationdate="20181121T050613Z">
@@ -430,6 +518,22 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074239Z" creationid="hirofumiwakasugi" creationdate="20181119T074239Z">
         <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/layout-component"&gt;Layout component&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/parameterized-routing"&gt;Parameterized routing&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062916Z" creationid="hirofumiwakasugi" creationdate="20181220T062916Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/parameterized-routing"&gt;パラメータ化されたルーティング&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/ssr-caching"&gt;SSR caching&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062924Z" creationid="hirofumiwakasugi" creationdate="20181220T062924Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/ssr-caching"&gt;SSRキャッシング&lt;/a&gt;&lt;/li&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -835,6 +939,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's possible, however, to start a server 100% programmatically in order to customize routes, use route patterns, etc.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062941Z" creationid="hirofumiwakasugi" creationdate="20181220T062941Z">
+        <seg>しかし、ルーティングをカスタマイズするためやルーティングパターンを使うためなどにサーバーを100%プログラムで起動することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It's useful to decorate this function in order to support server-rendering wrappers like Aphrodite's [`renderStatic`](https://github.com/Khan/aphrodite#server-side-rendering)</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100151Z" creationid="Tetsutaro" creationdate="20181204T100151Z">
@@ -973,6 +1085,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This example makes `/a` resolve to `./pages/b`, and `/b` resolve to `./pages/a`:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063008Z" creationid="hirofumiwakasugi" creationdate="20181220T063008Z">
+        <seg>この例では  `/a` を `./pages/b`に対応させ,  `/b` を `./pages/a`に対応させるようにしております:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To avoid duplicate tags in your `&lt;head&gt;` you can use the `key` property, which will make sure the tag is only rendered once:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074456Z" creationid="hirofumiwakasugi" creationdate="20181119T074456Z">
@@ -1037,6 +1157,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Typically you start your next server with `next start`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062932Z" creationid="hirofumiwakasugi" creationdate="20181220T062932Z">
+        <seg>一般的に`next server`でサーバーを立てます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We bundle [styled-jsx](https://github.com/zeit/styled-jsx) to provide support for isolated scoped CSS.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041432Z" creationid="hirofumiwakasugi" creationdate="20181119T041432Z">
@@ -1057,6 +1185,14 @@
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074324Z" creationid="hirofumiwakasugi" creationdate="20181119T074324Z">
         <seg>ページの `&lt;head&gt;` に要素を追加するために組み込みのコンポーネントを利用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using a custom server with a server file, for example called `server.js`, make sure you update the scripts key in `package.json` to:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062956Z" creationid="hirofumiwakasugi" creationdate="20181220T062952Z">
+        <seg>例えば`server.js`と呼ばれるサーバーのためのファイルでカスタムなサーバーを使おうとする時は, `package.json`内のscriptsのkeyを下記のように上書きしていることを確認してください:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1157,6 +1293,16 @@ npm install --save next react react-dom
         <seg>```bash
 npm install --save next react react-dom
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```js
+// This file doesn't go through babel or webpack transformation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063020Z" creationid="hirofumiwakasugi" creationdate="20181220T063020Z">
+        <seg>```js
+// This file doesn't go through babel or webpack transformation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1335,6 +1481,30 @@ import cowsay from 'cowsay-browser'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>app.prepare().then(() =&gt; {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063021Z" creationid="hirofumiwakasugi" creationdate="20181220T063021Z">
+        <seg>app.prepare().then(() =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>app.render(req, res, '/a', query)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063024Z" creationid="hirofumiwakasugi" creationdate="20181220T063024Z">
+        <seg>app.render(req, res, '/a', query)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>app.render(req, res, '/b', query)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063023Z" creationid="hirofumiwakasugi" creationdate="20181220T063023Z">
+        <seg>app.render(req, res, '/b', query)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>background: black;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041437Z" creationid="hirofumiwakasugi" creationdate="20181119T041437Z">
@@ -1375,10 +1545,38 @@ import cowsay from 'cowsay-browser'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>console.log('&gt; Ready on http://localhost:3000')</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063026Z" creationid="hirofumiwakasugi" creationdate="20181220T063026Z">
+        <seg>console.log('&gt; Ready on http://localhost:3000')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>const dev = process.env.NODE_ENV !== 'production'
+const app = next({ dev })
+const handle = app.getRequestHandler()</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063021Z" creationid="hirofumiwakasugi" creationdate="20181220T063021Z">
+        <seg>const dev = process.env.NODE_ENV !== 'production'
+const app = next({ dev })
+const handle = app.getRequestHandler()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>const json = await res.json()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050624Z" creationid="hirofumiwakasugi" creationdate="20181121T050624Z">
         <seg>const json = await res.json()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>const parsedUrl = parse(req.url, true)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063022Z" creationid="hirofumiwakasugi" creationdate="20181220T063022Z">
+        <seg>const parsedUrl = parse(req.url, true)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1395,6 +1593,22 @@ import cowsay from 'cowsay-browser'</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050616Z" creationid="hirofumiwakasugi" creationdate="20181121T050616Z">
         <seg>const userAgent = req ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>const { pathname, query } = parsedUrl</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063022Z" creationid="hirofumiwakasugi" creationdate="20181220T063022Z">
+        <seg>const { pathname, query } = parsedUrl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>createServer((req, res) =&gt; {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063021Z" creationid="hirofumiwakasugi" creationdate="20181220T063021Z">
+        <seg>createServer((req, res) =&gt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1429,6 +1643,30 @@ import cowsay from 'cowsay-browser'</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075257Z" creationid="hirofumiwakasugi" creationdate="20181119T075257Z">
         <seg>export default class extends React.Component {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>handle(req, res, parsedUrl)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063025Z" creationid="hirofumiwakasugi" creationdate="20181220T063025Z">
+        <seg>handle(req, res, parsedUrl)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if (err) throw err</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063026Z" creationid="hirofumiwakasugi" creationdate="20181220T063026Z">
+        <seg>if (err) throw err</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if (pathname === '/a') {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063023Z" creationid="hirofumiwakasugi" creationdate="20181220T063023Z">
+        <seg>if (pathname === '/a') {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1523,6 +1761,42 @@ import cowsay from 'cowsay-browser'</seg>
         <seg>}
 }
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>} else if (pathname === '/b') {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063023Z" creationid="hirofumiwakasugi" creationdate="20181220T063023Z">
+        <seg>} else if (pathname === '/b') {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>} else {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063024Z" creationid="hirofumiwakasugi" creationdate="20181220T063024Z">
+        <seg>} else {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>})
+})
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063042Z" creationid="hirofumiwakasugi" creationdate="20181220T063042Z">
+        <seg>})
+})
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}).listen(3000, err =&gt; {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063025Z" creationid="hirofumiwakasugi" creationdate="20181220T063025Z">
+        <seg>}).listen(3000, err =&gt; {</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
