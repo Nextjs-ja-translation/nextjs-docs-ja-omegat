@@ -184,6 +184,14 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#### Dynamic assetPrefix</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063936Z" creationid="hirofumiwakasugi" creationdate="20181220T063936Z">
+        <seg>#### 動的なアセットプレフィックス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#### Importing CSS / Sass / Less / Stylus files</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043336Z" creationid="hirofumiwakasugi" creationdate="20181119T043336Z">
@@ -302,6 +310,14 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100033Z" creationid="Tetsutaro" creationdate="20181204T100033Z">
         <seg>- `renderPage` (`Function`)は実際のReactのレンダリングロジック（同期的）を実行するコールバックです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>// Add assetPrefix support based on the hostname</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064006Z" creationid="hirofumiwakasugi" creationdate="20181220T064006Z">
+        <seg>// Add assetPrefix support based on the hostname</seg>
       </tuv>
     </tu>
     <tu>
@@ -826,6 +842,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For that, we can use `app.setAssetPrefix`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063954Z" creationid="hirofumiwakasugi" creationdate="20181220T063954Z">
+        <seg>そのために、私たちは `app.setAssetPrefix`を使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For the initial page load, `getInitialProps` will execute on the server only.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T095608Z" creationid="hirofumiwakasugi" creationdate="20181119T095608Z">
@@ -854,6 +878,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
         <seg>Hello world</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here's an example usage of it:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064001Z" creationid="hirofumiwakasugi" creationdate="20181220T064001Z">
+        <seg>ここに使用例があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1071,6 +1103,14 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sometimes we need to set the `assetPrefix` dynamically.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063942Z" creationid="hirofumiwakasugi" creationdate="20181220T063942Z">
+        <seg>々、私たちは動的に`assetPrefix`を設定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Supported options:
 - `dev` (`bool`) whether to launch Next.js in dev mode - default `false`
 - `dir` (`string`) where the Next project is located - default `'.'`
@@ -1159,6 +1199,14 @@ may still access those paths.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063008Z" creationid="hirofumiwakasugi" creationdate="20181220T063008Z">
         <seg>この例では  `/a` を `./pages/b`に対応させ,  `/b` を `./pages/a`に対応させるようにしております:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is useful when changing the `assetPrefix` based on incoming requests.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063948Z" creationid="hirofumiwakasugi" creationdate="20181220T063948Z">
+        <seg>これは入ってくるリクエストに基づく`assetPrefix`を変更するときに役に立ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1372,6 +1420,14 @@ routes; please refer to [Intercepting `popstate`](#intercepting-popstate).</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064012Z" creationid="hirofumiwakasugi" creationdate="20181220T064012Z">
+        <seg>```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>```bash
 npm install --save next react react-dom
 ```</seg>
@@ -1402,6 +1458,18 @@ module.exports = {</seg>
         <seg>```js
 // next.config.js
 module.exports = {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```js
+const next = require('next')
+const micro = require('micro')</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064004Z" creationid="hirofumiwakasugi" creationdate="20181220T064004Z">
+        <seg>```js
+const next = require('next')
+const micro = require('micro')</seg>
       </tuv>
     </tu>
     <tu>
@@ -1604,6 +1672,22 @@ import cowsay from 'cowsay-browser'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>app.setAssetPrefix('')</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064007Z" creationid="hirofumiwakasugi" creationdate="20181220T064007Z">
+        <seg>app.setAssetPrefix('')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>app.setAssetPrefix('http://cdn.com/myapp')</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064007Z" creationid="hirofumiwakasugi" creationdate="20181220T064007Z">
+        <seg>app.setAssetPrefix('http://cdn.com/myapp')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>background: black;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041437Z" creationid="hirofumiwakasugi" creationdate="20181119T041437Z">
@@ -1652,6 +1736,14 @@ import cowsay from 'cowsay-browser'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>console.log(`&gt; Ready on http://localhost:${port}`)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064010Z" creationid="hirofumiwakasugi" creationdate="20181220T064010Z">
+        <seg>console.log(`&gt; Ready on http://localhost:${port}`)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()</seg>
@@ -1660,6 +1752,18 @@ const handle = app.getRequestHandler()</seg>
         <seg>const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>const dev = process.env.NODE_ENV !== 'production'
+const app = next({ dev })
+const handleNextRequests = app.getRequestHandler()</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064004Z" creationid="hirofumiwakasugi" creationdate="20181220T064004Z">
+        <seg>const dev = process.env.NODE_ENV !== 'production'
+const app = next({ dev })
+const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
     </tu>
     <tu>
@@ -1684,6 +1788,14 @@ const handle = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050624Z" creationid="hirofumiwakasugi" creationdate="20181121T050624Z">
         <seg>const res = await fetch('https://api.github.com/repos/zeit/next.js')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>const server = micro((req, res) =&gt; {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064006Z" creationid="hirofumiwakasugi" creationdate="20181220T064006Z">
+        <seg>const server = micro((req, res) =&gt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1754,6 +1866,14 @@ const handle = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>handleNextRequests(req, res)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064008Z" creationid="hirofumiwakasugi" creationdate="20181220T064008Z">
+        <seg>handleNextRequests(req, res)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>if (err) throw err</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063026Z" creationid="hirofumiwakasugi" creationdate="20181220T063026Z">
@@ -1762,10 +1882,26 @@ const handle = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>if (err) {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064008Z" creationid="hirofumiwakasugi" creationdate="20181220T064008Z">
+        <seg>if (err) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>if (pathname === '/a') {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063023Z" creationid="hirofumiwakasugi" creationdate="20181220T063023Z">
         <seg>if (pathname === '/a') {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if (req.headers.host === 'my-app.com') {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064006Z" creationid="hirofumiwakasugi" creationdate="20181220T064006Z">
+        <seg>if (req.headers.host === 'my-app.com') {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1820,10 +1956,26 @@ const handle = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>server.listen(port, (err) =&gt; {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064008Z" creationid="hirofumiwakasugi" creationdate="20181220T064008Z">
+        <seg>server.listen(port, (err) =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>static async getInitialProps({ req }) {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050615Z" creationid="hirofumiwakasugi" creationdate="20181121T050615Z">
         <seg>static async getInitialProps({ req }) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>throw err</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064009Z" creationid="hirofumiwakasugi" creationdate="20181220T064009Z">
+        <seg>throw err</seg>
       </tuv>
     </tu>
     <tu>
@@ -1888,6 +2040,24 @@ const handle = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063024Z" creationid="hirofumiwakasugi" creationdate="20181220T063024Z">
         <seg>} else {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>})</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064008Z" creationid="hirofumiwakasugi" creationdate="20181220T064008Z">
+        <seg>})</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>})
+})</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064010Z" creationid="hirofumiwakasugi" creationdate="20181220T064010Z">
+        <seg>})
+})</seg>
       </tuv>
     </tu>
     <tu>
