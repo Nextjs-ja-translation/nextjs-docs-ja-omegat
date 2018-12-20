@@ -768,12 +768,12 @@ module.exports = {
 
 クライアントサイドでのファイル名に基づくルーティングにリダイレクトすることを禁じるようにクライアントサイドのルーターを設定したいと思うでしょう。その時は [Intercepting `popstate`](#intercepting-popstate)を参照してください。
 
-#### Dynamic assetPrefix
+#### 動的なアセットプレフィックス
 
-Sometimes we need to set the `assetPrefix` dynamically. This is useful when changing the `assetPrefix` based on incoming requests.
-For that, we can use `app.setAssetPrefix`.
+々、私たちは動的に`assetPrefix`を設定する必要があります。これは入ってくるリクエストに基づく`assetPrefix`を変更するときに役に立ちます。
+そのために、私たちは `app.setAssetPrefix`を使うことができます。
 
-Here's an example usage of it:
+ここに使用例があります。
 
 ```js
 const next = require('next')
