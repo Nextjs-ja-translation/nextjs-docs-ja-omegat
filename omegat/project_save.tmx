@@ -1009,8 +1009,8 @@ you do not want programmatically.</seg>
         <seg>Note that `useFileSystemPublicRoutes` simply disables filename routes from SSR; client-side routing
 may still access those paths.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063342Z" creationid="hirofumiwakasugi" creationdate="20181220T063342Z">
-        <seg>`useFileSystemPublicRoutes` は単純にSSRでのファイル名に基づくルーティングを無効にしますが、クライエントサイドでのルーティングは引き続きこれらのパスにアクセス可能です。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063459Z" creationid="hirofumiwakasugi" creationdate="20181220T063342Z">
+        <seg>`useFileSystemPublicRoutes` は単純にSSRでのファイル名に基づくルーティングを無効にしますが、クライアントサイドでのルーティングは引き続きこれらのパスにアクセス可能です。</seg>
       </tuv>
     </tu>
     <tu>
