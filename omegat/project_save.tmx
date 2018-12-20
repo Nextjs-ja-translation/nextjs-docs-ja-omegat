@@ -1105,8 +1105,8 @@ may still access those paths.</seg>
       <tuv lang="EN-US">
         <seg>Sometimes we need to set the `assetPrefix` dynamically.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063942Z" creationid="hirofumiwakasugi" creationdate="20181220T063942Z">
-        <seg>々、私たちは動的に`assetPrefix`を設定する必要があります。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064109Z" creationid="hirofumiwakasugi" creationdate="20181220T063942Z">
+        <seg>しばしば、私たちは動的に`assetPrefix`を設定する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
