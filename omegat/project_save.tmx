@@ -174,6 +174,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#### Disabling file-system routing
+By default, `Next` will serve each file in `/pages` under a pathname matching the filename (eg, `/pages/some-file.js` is served at `site.com/some-file`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063223Z" creationid="hirofumiwakasugi" creationdate="20181220T063157Z">
+        <seg>#### ファイルシステムに基づいたルーティングを無効にする
+デフォルトでは, `Next`は`/pages`配下のファイル名とパス名が連動するようになっています。(例えば、`site.com/some-file`にアクセスすると`/pages/some-file.js`が読み込まれます。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#### Importing CSS / Sass / Less / Stylus files</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043336Z" creationid="hirofumiwakasugi" creationdate="20181119T043336Z">
@@ -882,6 +892,15 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If using this option, you should guard against navigation to routes
+you do not want programmatically.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063348Z" creationid="hirofumiwakasugi" creationdate="20181220T063348Z">
+        <seg>もしこのオプションを使用するのなら、 あなたはプログラムによって不必要なルートへの誘導に対するガードをするべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you need shared components in all your pages (like a menu or a toolbar), take a look at the `App` component instead.__</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100236Z" creationid="Tetsutaro" creationdate="20181204T100236Z">
@@ -903,6 +922,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161449Z" creationid="Tetsutaro" creationdate="20181204T161449Z">
         <seg>もしデフォルトのエラーコンポーネントをオーバーライドしたいのなら、`_error.js`をpagesフォルダーの中に定義して下さい:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your project uses custom routing, this behavior may result in the same content being served from multiple paths, which can present problems with SEO and UX.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063230Z" creationid="hirofumiwakasugi" creationdate="20181220T063230Z">
+        <seg>もしあなたのプロジェクトがカスタムルーティングを使用しているのなら, この挙動によって異なるパスでも同じコンテンツが読み込まれるようになり、SEOやUX的な問題が起きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -979,6 +1006,15 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that `useFileSystemPublicRoutes` simply disables filename routes from SSR; client-side routing
+may still access those paths.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063342Z" creationid="hirofumiwakasugi" creationdate="20181220T063342Z">
+        <seg>`useFileSystemPublicRoutes` は単純にSSRでのファイル名に基づくルーティングを無効にしますが、クライエントサイドでのルーティングは引き続きこれらのパスにアクセス可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Notice that to load data when the page loads, we use `getInitialProps` which is an [`async`](https://zeit.co/blog/async-and-await) static method.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075422Z" creationid="hirofumiwakasugi" creationdate="20181119T075422Z">
@@ -1035,6 +1071,22 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Supported options:
+- `dev` (`bool`) whether to launch Next.js in dev mode - default `false`
+- `dir` (`string`) where the Next project is located - default `'.'`
+- `quiet` (`bool`) Hide error messages containing server information - default `false`
+- `conf` (`object`) the same object you would use in `next.config.js` - default `{}`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063150Z" creationid="hirofumiwakasugi" creationdate="20181220T063150Z">
+        <seg>サポートされているオプション一覧:
+- `dev` (`bool`) Next.jsをdevモードで 立ち上げるか否か　- デフォルトでは `false`
+- `dir` (`string`) Next.jsのプロジェクトがどこに位置しているのか - デフォルトでは `'.'`
+- `quiet` (`bool`) サーバー情報を含むエラーメッセージを隠す - デフォルトでは `false`
+- `conf` (`object`)  `next.config.js`で使う予定の同じオブジェクト - デフォルトでは `{}`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That means pages never load unnecessary code!</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041426Z" creationid="hirofumiwakasugi" creationdate="20181119T041426Z">
@@ -1047,6 +1099,16 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100011Z" creationid="Tetsutaro" creationdate="20181204T100011Z">
         <seg>`ctx`オブジェクトは、すべての[`getInitialProps`](#fetching-data-and-component-lifecycle)フックで受け取るオブジェクトと同等です。さらに加えて:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The `next` API is as follows:
+- `next(opts: object)`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063052Z" creationid="hirofumiwakasugi" creationdate="20181220T063052Z">
+        <seg>`next` API はこのようになっております:
+- `next(opts: object)`</seg>
       </tuv>
     </tu>
     <tu>
@@ -1085,6 +1147,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then, change your `start` script to `NODE_ENV=production node server.js`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063201Z" creationid="hirofumiwakasugi" creationdate="20181220T063156Z">
+        <seg>それから、`start`というscriptを `NODE_ENV=production node server.js`に変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This example makes `/a` resolve to `./pages/b`, and `/b` resolve to `./pages/a`:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063008Z" creationid="hirofumiwakasugi" creationdate="20181220T063008Z">
@@ -1097,6 +1167,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074456Z" creationid="hirofumiwakasugi" creationdate="20181119T074456Z">
         <seg>`&lt;head&gt;` の中で要素が重複するのを避けるために `key` プロパティを使うことができます。これによって、あるタグが一度だけレンダリングされることを保証することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To disable this behavior &amp; prevent routing based on files in `/pages`, simply set the following option in your `next.config.js`:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063238Z" creationid="hirofumiwakasugi" creationdate="20181220T063238Z">
+        <seg>この挙動を無効にして、 `/pages`のファイルに基づいたルーティングを防ぐのなら,  `next.config.js`に下記のように記述してください:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1303,6 +1381,18 @@ npm install --save next react react-dom
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063020Z" creationid="hirofumiwakasugi" creationdate="20181220T063020Z">
         <seg>```js
 // This file doesn't go through babel or webpack transformation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```js
+// next.config.js
+module.exports = {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063239Z" creationid="hirofumiwakasugi" creationdate="20181220T063239Z">
+        <seg>```js
+// next.config.js
+module.exports = {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1733,6 +1823,18 @@ const handle = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103420Z" creationid="hirofumiwakasugi" creationdate="20181121T103420Z">
         <seg>to read more</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>useFileSystemPublicRoutes: false
+}
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063239Z" creationid="hirofumiwakasugi" creationdate="20181220T063239Z">
+        <seg>useFileSystemPublicRoutes: false
+}
+```</seg>
       </tuv>
     </tu>
     <tu>
