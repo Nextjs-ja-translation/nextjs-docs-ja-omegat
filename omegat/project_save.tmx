@@ -452,6 +452,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;Link href={{ pathname: '/about', query: { name: 'Zeit' } }}&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20190107T043056Z" creationid="hirofumiwakasugi" creationdate="20190107T043056Z">
+        <seg>&lt;Link href={{ pathname: '/about', query: { name: 'Zeit' } }}&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a&gt;here&lt;/a&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103413Z" creationid="hirofumiwakasugi" creationdate="20181121T103413Z">
@@ -576,6 +584,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T092636Z" creationid="Tetsutaro" creationdate="20181204T092636Z">
         <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/with-componentdidcatch"&gt;`componentDidCatch`をオーバーライドするために`_app.js`を使用する&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/with-url-object-routing"&gt;With URL Object Routing&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20190107T043053Z" creationid="hirofumiwakasugi" creationdate="20190107T043053Z">
+        <seg>&lt;li&gt;&lt;a target="_blank" href="/examples/with-url-object-routing"&gt;With URL Object Routing&lt;/a&gt;&lt;/li&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1131,6 +1147,14 @@ may still access those paths.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041426Z" creationid="hirofumiwakasugi" creationdate="20181119T041426Z">
         <seg>これはつまり、ページに必要のないコードが無駄に読み込まれることがないということを意味しています！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That will generate the URL string `/about?name=Zeit`, you can use every property as defined in the [Node.js URL module documentation](https://nodejs.org/api/url.html#url_url_strings_and_url_objects).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20190107T043059Z" creationid="hirofumiwakasugi" creationdate="20190107T043059Z">
+        <seg>URL文字列`/about?name=Zeit`が作成され、[Node.jsモジュールドキュメント](https://nodejs.org/api/url.html#url_url_strings_and_url_objects)に定義されている全てのプロパティを利用することができます。</seg>
       </tuv>
     </tu>
     <tu>
