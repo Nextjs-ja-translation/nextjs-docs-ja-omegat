@@ -1161,6 +1161,14 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The component `&lt;Link&gt;` can also receive an URL object and it will automatically format it to create the URL string.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20190107T043032Z" creationid="hirofumiwakasugi" creationdate="20190107T043032Z">
+        <seg>コンポーネント`&lt;Link&gt;`もURLオブジェクトを受け取ることができ、URL文字列を作成するために自動でフォーマットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The component is fetched
 2.</seg>
       </tuv>
