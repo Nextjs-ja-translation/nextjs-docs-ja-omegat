@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.1.5_3_10490" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.1_0_99222d65f" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -730,6 +730,31 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt;
+&gt; **You cannot remove this file, however, you can edit it (but don't need to).**</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155914Z" creationid="hirofumiwakasugi" creationdate="20191206T155914Z">
+        <seg>&gt; このファイルを削除することはできませんが、編集することはできます (ただし、削除する必要はありません)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; **Note**: Next.js does not enable TypeScript's `strict` mode by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T160038Z" creationid="hirofumiwakasugi" creationdate="20191206T155929Z">
+        <seg>&gt; **注意点** : Next.jsは、デフォルトではTypeScriptのstrictモードは有効ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; **Note**: Next.js will create a file named `next-env.d.ts` in the root of your project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155832Z" creationid="hirofumiwakasugi" creationdate="20191206T155832Z">
+        <seg>&gt; **注意点** : Next.jsがnext-env.d.tsというファイルをプロジェクトのroot上に作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; If you are using some server only modules inside `getInitialProps`, make sure to [import them properly](https://arunoda.me/blog/ssr-and-server-only-modules).</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T100022Z" creationid="hirofumiwakasugi" creationdate="20181119T100022Z">
@@ -750,6 +775,22 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T100047Z" creationid="hirofumiwakasugi" creationdate="20181119T100047Z">
         <seg>&gt; アプリケーションが遅くなってしまうため注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; This file ensures Next.js' types are picked up by the TypeScript compiler.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155844Z" creationid="hirofumiwakasugi" creationdate="20191206T155844Z">
+        <seg>&gt; これはTypeScriptのコンパイラーが型を確実に選択するようにするためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; When you feel comfortable with TypeScript, you may turn this option on in your `tsconfig.json`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T160110Z" creationid="hirofumiwakasugi" creationdate="20191206T160110Z">
+        <seg>&gt; したがって、TypeScriptに慣れたら別途 `tsconfig.json` にて設定するとよいでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1046,10 +1087,26 @@ you do not want programmatically.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Next.js provides an integrated TypeScript experience out of the box, similar to an IDE.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155432Z" creationid="hirofumiwakasugi" creationdate="20191206T155432Z">
+        <seg>IDEのようにNext.jsではTypeScriptを簡単に扱えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Next.js uses the `App` component to initialize pages.</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095512Z" creationid="Tetsutaro" creationdate="20181204T095512Z">
         <seg>Next.jsはページを初期化するために`App`コンポーネントを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Next.js will automatically configure this file with default values (providing [your own `tsconfig.json`](https://www.typescriptlang.org/docs/handbook/compiler-options.html) is also supported).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155701Z" creationid="hirofumiwakasugi" creationdate="20191206T155633Z">
+        <seg>先程作成したファイルは、Next.jsによって自動でデフォルト値をもとに構成されます。([独自の `tsconfig.json` を用いることでのカスタマイズ](https://www.typescriptlang.org/docs/handbook/compiler-options.html)も可能です)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1227,6 +1284,14 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then, run `next dev` (normally `npm run dev`) and Next.js will guide you through installing the necessary packages to complete setup.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155542Z" creationid="hirofumiwakasugi" creationdate="20191206T155542Z">
+        <seg>それから、`next dev`(または、`npm run dev`)を実行すると環境構築に必要なパッケージをインストールするようメッセージがでますので、インストールしてセットアップを完了してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This example makes `/a` resolve to `./pages/b`, and `/b` resolve to `./pages/a`:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063008Z" creationid="hirofumiwakasugi" creationdate="20181220T063008Z">
@@ -1259,10 +1324,26 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To get started, create a empty `tsconfig.json` file in the root of your project:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155452Z" creationid="hirofumiwakasugi" creationdate="20191206T155452Z">
+        <seg>はじめに、空の`tsconfig.json`ファイルをプロジェクトのroot上に作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To inject the `pathname`, `query` or `asPath` in your component, you can use [withRouter](#using-a-higher-order-component).</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103917Z" creationid="hirofumiwakasugi" creationdate="20181121T103917Z">
         <seg>コンポーネントの内部で `pathname` / `query` / `asPath` を弄りたいときは [withRouter](#using-a-higher-order-component) を使ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To learn more about TypeScript checkout its [documentation](https://www.typescriptlang.org/).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155738Z" creationid="hirofumiwakasugi" creationdate="20191206T155738Z">
+        <seg>TypeScriptに関して詳しく知りたい方は、[ドキュメント](https://www.typescriptlang.org/)を確認してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1392,6 +1473,14 @@ routes; please refer to [Intercepting `popstate`](#intercepting-popstate).</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063418Z" creationid="hirofumiwakasugi" creationdate="20181220T063418Z">
         <seg>クライアントサイドでのファイル名に基づくルーティングにリダイレクトすることを禁じるようにクライアントサイドのルーターを設定したいと思うでしょう。その時は [Intercepting `popstate`](#intercepting-popstate)を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You're now ready to start converting files from `.js` to `.tsx` and leveraging the benefits TypeScript provides!</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155728Z" creationid="hirofumiwakasugi" creationdate="20191206T155728Z">
+        <seg>これで、`.js`から`.tsx`変換をすることで、TypeScriptが提供する利点を活用できる準備ができました。</seg>
       </tuv>
     </tu>
     <tu>
