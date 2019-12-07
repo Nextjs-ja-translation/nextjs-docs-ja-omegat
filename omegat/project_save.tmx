@@ -248,6 +248,16 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>)
+}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144343Z" creationid="hirofumiwakasugi" creationdate="20191207T144343Z">
+        <seg>)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Automatic transpilation and bundling (with webpack and babel)
 - Hot code reloading
 - Server rendering and indexing of `./pages/`
@@ -526,6 +536,62 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
         <seg>&lt;div&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a href="/examples/basic-css"&gt;Basic css&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144334Z" creationid="hirofumiwakasugi" creationdate="20191207T144334Z">
+        <seg>&lt;li&gt;&lt;a href="/examples/basic-css"&gt;Basic css&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-aphrodite"&gt;Aphrodite&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144418Z" creationid="hirofumiwakasugi" creationdate="20191207T144418Z">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-aphrodite"&gt;Aphrodite&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-cxs"&gt;Cxs&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144416Z" creationid="hirofumiwakasugi" creationdate="20191207T144416Z">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-cxs"&gt;Cxs&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-fela"&gt;Fela&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144422Z" creationid="hirofumiwakasugi" creationdate="20191207T144422Z">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-fela"&gt;Fela&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-glamor"&gt;Glamor&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144415Z" creationid="hirofumiwakasugi" creationdate="20191207T144415Z">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-glamor"&gt;Glamor&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-styled-components"&gt;Styled components&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144409Z" creationid="hirofumiwakasugi" creationdate="20191207T144409Z">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-styled-components"&gt;Styled components&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-styletron"&gt;Styletron&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144414Z" creationid="hirofumiwakasugi" creationdate="20191207T144414Z">
+        <seg>&lt;li&gt;&lt;a href="/examples/with-styletron"&gt;Styletron&lt;/a&gt;&lt;/li&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -881,6 +947,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a folder called `public` in your project root directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144621Z" creationid="hirofumiwakasugi" creationdate="20191207T144609Z">
+        <seg>プロジェクトのルートディレクトリに `public` というディレクトリを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create a folder called `static` in your project root directory.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043613Z" creationid="hirofumiwakasugi" creationdate="20181119T043613Z">
@@ -941,6 +1015,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T095608Z" creationid="hirofumiwakasugi" creationdate="20181119T095608Z">
         <seg>最初にページが読み込まれるとき、`getInitialProps` はサーバーサイドでのみ実行されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From your code you can then reference those files starting from the baseURL `/`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144610Z" creationid="hirofumiwakasugi" creationdate="20191207T144610Z">
+        <seg>From your code you can then reference those files starting from the baseURL `/`</seg>
       </tuv>
     </tu>
     <tu>
@@ -1308,8 +1390,8 @@ may still access those paths.</seg>
       <tuv lang="EN-US">
         <seg>The simplest one is inline styles:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T042209Z" creationid="hirofumiwakasugi" creationdate="20181119T042209Z">
-        <seg>一番シンプルなのはインラインで記述するものでしょう:</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144435Z" creationid="hirofumiwakasugi" creationdate="20181119T042209Z">
+        <seg>一番シンプルなのはインラインで記述するものです:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1446,6 +1528,14 @@ may still access those paths.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041432Z" creationid="hirofumiwakasugi" creationdate="20181119T041432Z">
         <seg>Next.js には [styled-jsx](https://github.com/zeit/styled-jsx) の機能が同梱されており、スコープを分離した CSS の適用が可能になっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We enable this by allowing you to define your own [custom `&lt;Document&gt;`](#custom-document) component that wraps each page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144601Z" creationid="hirofumiwakasugi" creationdate="20191207T144601Z">
+        <seg>これは、各ページをラップする独自の[カスタム `&lt;Document&gt;`](#custom-document) コンポーネントを定義することで実現できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1766,6 +1856,26 @@ export default () =&gt; &lt;p style={{ color: 'red' }}&gt;hi there&lt;/p&gt;
     <tu>
       <tuv lang="EN-US">
         <seg>```jsx
+function HelloWorld() {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144338Z" creationid="hirofumiwakasugi" creationdate="20191207T144338Z">
+        <seg>```jsx
+function HelloWorld() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
+function HiThere() {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144423Z" creationid="hirofumiwakasugi" creationdate="20191207T144423Z">
+        <seg>```jsx
+function HiThere() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
 function Home() {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T035016Z" creationid="hirofumiwakasugi" creationdate="20191207T035016Z">
@@ -2037,6 +2147,36 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>export default CowsayHi
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144327Z" creationid="hirofumiwakasugi" creationdate="20191207T144327Z">
+        <seg>export default CowsayHi
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>export default HelloWorld
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144339Z" creationid="hirofumiwakasugi" creationdate="20191207T144339Z">
+        <seg>export default HelloWorld
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>export default HiThere
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144429Z" creationid="hirofumiwakasugi" creationdate="20191207T144429Z">
+        <seg>export default HiThere
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>export default Home
 ```</seg>
       </tuv>
@@ -2061,6 +2201,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075257Z" creationid="hirofumiwakasugi" creationdate="20181119T075257Z">
         <seg>export default class extends React.Component {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>function CowsayHi() {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144325Z" creationid="hirofumiwakasugi" creationdate="20191207T144325Z">
+        <seg>function CowsayHi() {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2150,6 +2298,26 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T035018Z" creationid="hirofumiwakasugi" creationdate="20191207T035018Z">
         <seg>return &lt;div&gt;Welcome to Next.js!&lt;/div&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return &lt;p style={{ color: 'red' }}&gt;hi there&lt;/p&gt;
+}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144424Z" creationid="hirofumiwakasugi" creationdate="20191207T144424Z">
+        <seg>return &lt;p style={{ color: 'red' }}&gt;hi there&lt;/p&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return &lt;pre&gt;{cowsay.say({ text: 'hi there!' })}&lt;/pre&gt;
+}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144326Z" creationid="hirofumiwakasugi" creationdate="20191207T144326Z">
+        <seg>return &lt;pre&gt;{cowsay.say({ text: 'hi there!' })}&lt;/pre&gt;
 }</seg>
       </tuv>
     </tu>
