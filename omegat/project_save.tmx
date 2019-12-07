@@ -1047,6 +1047,14 @@ you do not want programmatically.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Install it in your project:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T034910Z" creationid="hirofumiwakasugi" creationdate="20191207T034910Z">
+        <seg>以下をプロジェクトにインストールしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Install it:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041409Z" creationid="hirofumiwakasugi" creationdate="20181119T041409Z">
@@ -1981,6 +1989,16 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041427Z" creationid="hirofumiwakasugi" creationdate="20181119T041427Z">
         <seg>export default () =&gt; (</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>export default Home
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T034958Z" creationid="hirofumiwakasugi" creationdate="20191207T034958Z">
+        <seg>export default Home
+```</seg>
       </tuv>
     </tu>
     <tu>
