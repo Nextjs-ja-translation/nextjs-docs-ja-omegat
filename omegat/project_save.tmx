@@ -1021,8 +1021,8 @@ const next = require('next')</seg>
       <tuv lang="EN-US">
         <seg>From your code you can then reference those files starting from the baseURL `/`</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144610Z" creationid="hirofumiwakasugi" creationdate="20191207T144610Z">
-        <seg>From your code you can then reference those files starting from the baseURL `/`</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144757Z" creationid="hirofumiwakasugi" creationdate="20191207T144610Z">
+        <seg>配置したファイルをコードから参照するには、 `/` のベース URL 直下を指定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1492,6 +1492,14 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To serve static files from the root directory you can add a folder called `public` and reference those files from the root, e.g: `/robots.txt`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T145021Z" creationid="hirofumiwakasugi" creationdate="20191207T145021Z">
+        <seg>つまり、ルートディレクトリで静的ファイルを公開するには、 `public` というフォルダーを追加し、そこに置かれたファイルはルートから参照可能ということです (例えば `/robots.txt`) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To support importing `.css`, `.scss`, `.less` or `.styl` files you can use these modules, which configure sensible defaults for server rendered applications.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043515Z" creationid="hirofumiwakasugi" creationdate="20181119T043515Z">
@@ -1886,6 +1894,16 @@ function Home() {</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>```jsx
+function MyImage() {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144758Z" creationid="hirofumiwakasugi" creationdate="20191207T144758Z">
+        <seg>```jsx
+function MyImage() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
 import Head from 'next/head'</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074325Z" creationid="hirofumiwakasugi" creationdate="20181119T074325Z">
@@ -2187,6 +2205,16 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>export default MyImage
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144759Z" creationid="hirofumiwakasugi" creationdate="20191207T144759Z">
+        <seg>export default MyImage
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>export default Page
 ```</seg>
       </tuv>
@@ -2298,6 +2326,16 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T035018Z" creationid="hirofumiwakasugi" creationdate="20191207T035018Z">
         <seg>return &lt;div&gt;Welcome to Next.js!&lt;/div&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return &lt;img src="/my-image.png" alt="my image" /&gt;
+}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144758Z" creationid="hirofumiwakasugi" creationdate="20191207T144758Z">
+        <seg>return &lt;img src="/my-image.png" alt="my image" /&gt;
 }</seg>
       </tuv>
     </tu>
