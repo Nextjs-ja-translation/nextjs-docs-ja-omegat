@@ -250,6 +250,20 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
       <tuv lang="EN-US">
         <seg>- Automatic transpilation and bundling (with webpack and babel)
 - Hot code reloading
+- Server rendering and indexing of `./pages/`
+- Static file serving.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T035128Z" creationid="hirofumiwakasugi" creationdate="20191207T035128Z">
+        <seg>- (webpack と babel を利用した) 自動的なトランスパイルとビルド
+- コードのホットリローディング
+- `./pages` 配下のファイルの構造化とサーバーサイドレンダリング
+- 静的ファイルの配布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Automatic transpilation and bundling (with webpack and babel)
+- Hot code reloading
 - Server rendering and indexing of `./pages`
 - Static file serving.</seg>
       </tuv>
@@ -1565,6 +1579,14 @@ routes; please refer to [Intercepting `popstate`](#intercepting-popstate).</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>`./public/` is mapped to `/` (given you [create a `./public/` directory](#static-file-serving-eg-images) inside your project)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T035202Z" creationid="hirofumiwakasugi" creationdate="20191207T035202Z">
+        <seg>`./public/` は `/` にマッピングされます (プロジェクトに [`./static/` ディレクトリを作成](#static-file-serving-eg-images)する必要があります。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`./static/` is mapped to `/static/` (given you [create a `./static/` directory](#static-file-serving-eg-images) inside your project)</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041424Z" creationid="hirofumiwakasugi" creationdate="20181119T041424Z">
@@ -1588,6 +1610,18 @@ npm install --save next react react-dom
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041410Z" creationid="hirofumiwakasugi" creationdate="20181119T041410Z">
         <seg>```bash
 npm install --save next react react-dom
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```bash
+npx create-next-app
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T035021Z" creationid="hirofumiwakasugi" creationdate="20191207T035021Z">
+        <seg>```bash
+npx create-next-app
 ```</seg>
       </tuv>
     </tu>
@@ -1727,6 +1761,16 @@ export default () =&gt; &lt;p style={{ color: 'red' }}&gt;hi there&lt;/p&gt;
         <seg>```jsx
 export default () =&gt; &lt;p style={{ color: 'red' }}&gt;hi there&lt;/p&gt;
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
+function Home() {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T035016Z" creationid="hirofumiwakasugi" creationdate="20191207T035016Z">
+        <seg>```jsx
+function Home() {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2097,6 +2141,16 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050618Z" creationid="hirofumiwakasugi" creationdate="20181121T050618Z">
         <seg>return (</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return &lt;div&gt;Welcome to Next.js!&lt;/div&gt;
+}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T035018Z" creationid="hirofumiwakasugi" creationdate="20191207T035018Z">
+        <seg>return &lt;div&gt;Welcome to Next.js!&lt;/div&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
