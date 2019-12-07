@@ -200,6 +200,22 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#### Manual Setup</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T034858Z" creationid="hirofumiwakasugi" creationdate="20191207T034858Z">
+        <seg>#### 手動でのセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#### Quick Start</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T034719Z" creationid="hirofumiwakasugi" creationdate="20191207T034719Z">
+        <seg>#### クイックスタート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#### With `&lt;Link&gt;`</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103044Z" creationid="hirofumiwakasugi" creationdate="20181121T103044Z">
@@ -1489,6 +1505,14 @@ routes; please refer to [Intercepting `popstate`](#intercepting-popstate).</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095835Z" creationid="Tetsutaro" creationdate="20181204T095835Z">
         <seg>そしてNext.jsでデフォルトで使用される[styled-jsx](https://github.com/zeit/styled-jsx)です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/timer/833d9946fa8a05ba855729d05a38ac23))_</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T034842Z" creationid="hirofumiwakasugi" creationdate="20191207T034842Z">
+        <seg>_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) は npm 5.2 以上に同梱されています。[古いバージョンの npm ではこちらの手順を参照ください。](https://gist.github.com/timer/833d9946fa8a05ba855729d05a38ac23))_</seg>
       </tuv>
     </tu>
     <tu>
