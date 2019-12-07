@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Dynamic Routing</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T145142Z" creationid="hirofumiwakasugi" creationdate="20191207T145142Z">
+        <seg>### ダイナミックルーティング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>### Fetching data and component lifecycle</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074853Z" creationid="hirofumiwakasugi" creationdate="20181119T074530Z">
@@ -544,6 +552,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144334Z" creationid="hirofumiwakasugi" creationdate="20191207T144334Z">
         <seg>&lt;li&gt;&lt;a href="/examples/basic-css"&gt;Basic css&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a href="/examples/dynamic-routing"&gt;Dynamic routing&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T145144Z" creationid="hirofumiwakasugi" creationdate="20191207T145144Z">
+        <seg>&lt;li&gt;&lt;a href="/examples/dynamic-routing"&gt;Dynamic routing&lt;/a&gt;&lt;/li&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1380,6 +1396,14 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name can't be changed and is the only directory that Next.js uses for serving static assets._</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T145129Z" creationid="hirofumiwakasugi" creationdate="20191207T145129Z">
+        <seg>この名前は変更不可能であり、Next.js は唯一このディレクトリだけを静的ファイルの公開に利用します。_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name is required and is the only directory that Next.js uses for serving static assets._</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074117Z" creationid="hirofumiwakasugi" creationdate="20181119T074117Z">
@@ -1633,6 +1657,14 @@ routes; please refer to [Intercepting `popstate`](#intercepting-popstate).</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T034842Z" creationid="hirofumiwakasugi" creationdate="20191207T034842Z">
         <seg>_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) は npm 5.2 以上に同梱されています。[古いバージョンの npm ではこちらの手順を参照ください。](https://gist.github.com/timer/833d9946fa8a05ba855729d05a38ac23))_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>_Note: Don't name the `public` directory anything else.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T145050Z" creationid="hirofumiwakasugi" creationdate="20191207T145050Z">
+        <seg>_注意: ディレクトリ名を `public` 以外にはしないようにしてください。</seg>
       </tuv>
     </tu>
     <tu>
