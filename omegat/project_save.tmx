@@ -943,8 +943,8 @@ const next = require('next')</seg>
       <tuv lang="EN-US">
         <seg>&gt; **Note**: Pages that are statically optimized by [automatic static optimization](#automatic-static-optimization) will be hydrated without their route parameters provided (`query` will be empty, i.e. `{}`).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042413Z" creationid="hirofumiwakasugi" creationdate="20191208T042413Z">
-        <seg>&gt; **注意**: [自動静的最適化](#automatic-static-optimization) されtaページはwill be hydrated without their route parameters provided (`query` will be empty, i.e. `{}`).</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042450Z" creationid="hirofumiwakasugi" creationdate="20191208T042413Z">
+        <seg>&gt; **注意**: [自動静的最適化](#automatic-static-optimization) されたページはルートパラメータなしで hydrate されます (`query` は `{}` のように空になります) 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -953,6 +953,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041826Z" creationid="hirofumiwakasugi" creationdate="20191208T041826Z">
         <seg>&gt; **注意**: 事前定義された静的なルーティングは動的なルーティングより優先されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; After hydration, Next.js will trigger an update to your application to provide the route parameters in the `query` object.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042601Z" creationid="hirofumiwakasugi" creationdate="20191208T042416Z">
+        <seg>&gt; hydration されたあと、Next.js はクエリパラメータを `query` オブジェクトで渡すようにアプリケーションを更新します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -977,6 +985,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161945Z" creationid="Tetsutaro" creationdate="20181204T161945Z">
         <seg>&gt; もしカスタムエラーページを作ったのならば、`next/error`ではなく、独自の`_error`コンポーネントをインポートしなければいけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; If your application cannot tolerate this behavior, you can opt-out of static optimization by capturing the query parameter in `getInitialProps`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042718Z" creationid="hirofumiwakasugi" creationdate="20191208T042718Z">
+        <seg>&gt; アプリケーション的にこの挙動だと都合が悪い場合には、`getInitialProps` 内でクエリパラメータをキャプチャすることでこの静的最適化をオプトアウトすることができます。</seg>
       </tuv>
     </tu>
     <tu>
