@@ -112,8 +112,8 @@
       <tuv lang="EN-US">
         <seg>### Dynamic Routing</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T145142Z" creationid="hirofumiwakasugi" creationdate="20191207T145142Z">
-        <seg>### ダイナミックルーティング</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035132Z" creationid="hirofumiwakasugi" creationdate="20191207T145142Z">
+        <seg>### 動的なルーティング</seg>
       </tuv>
     </tu>
     <tu>
@@ -989,8 +989,8 @@ const next = require('next')</seg>
       <tuv lang="EN-US">
         <seg>Defining routes by using predefined paths is not always enough for complex applications, in Next.js you can add brackets to a page (`[param]`) to create a dynamic route (a.k.a.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035123Z" creationid="hirofumiwakasugi" creationdate="20191208T035123Z">
-        <seg>複雑なアプリケーションでは、事前に定義されたパスによってルートを定義するのだけでは不足な場合があります。そのため、Next.js では、 `[param]` のようにページに角括弧 (ブラケット) を設定することで動的にDefining routes by using predefined paths is not always enough for complex applications, in Next.js you can add brackets to a page (`[param]`) to create a dynamic route (a.k.a.</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035156Z" creationid="hirofumiwakasugi" creationdate="20191208T035123Z">
+        <seg>複雑なアプリケーションでは、事前に定義されたパスによってルートを定義するのだけでは不足な場合があります。そのため、Next.js では、 `[param]` のようにページに角括弧 (ブラケット) を設定することで動的なルーティングをすることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2447,6 +2447,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103420Z" creationid="hirofumiwakasugi" creationdate="20181121T103420Z">
         <seg>to read more</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url slugs, pretty urls, et al).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035224Z" creationid="hirofumiwakasugi" creationdate="20191208T035224Z">
+        <seg>(これは slug や pretty url などと呼ばれることもあります) </seg>
       </tuv>
     </tu>
     <tu>
