@@ -925,6 +925,24 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt;
+&gt; If you are new to ZEIT Now, you can learn how to deploy a Next.js app to it in the [_Deploying a Next.js App_ Learn section](https://nextjs.org/learn/basics/deploying-a-nextjs-app).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T043042Z" creationid="hirofumiwakasugi" creationdate="20191208T043042Z">
+        <seg>&gt;
+&gt; ZEIT Now に Next.js アプリケーションをデプロイすることについてもっと知りたいときは、[_Deploying a Next.js App_ Learn section](https://nextjs.org/learn/basics/deploying-a-nextjs-app) を参照ください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; **Note**: If deploying to [ZEIT Now](https://zeit.co/now) dynamic routes will work out-of-the-box.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042906Z" creationid="hirofumiwakasugi" creationdate="20191208T042740Z">
+        <seg>&gt; **メモ**: [ZEIT Now](https://zeit.co/now) にデプロイする場合、動的ルーティングは特に設定なしで動作します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; **Note**: Next.js does not enable TypeScript's `strict` mode by default.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T160038Z" creationid="hirofumiwakasugi" creationdate="20191206T155929Z">
@@ -943,16 +961,16 @@ const next = require('next')</seg>
       <tuv lang="EN-US">
         <seg>&gt; **Note**: Pages that are statically optimized by [automatic static optimization](#automatic-static-optimization) will be hydrated without their route parameters provided (`query` will be empty, i.e. `{}`).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042450Z" creationid="hirofumiwakasugi" creationdate="20191208T042413Z">
-        <seg>&gt; **注意**: [自動静的最適化](#automatic-static-optimization) されたページはルートパラメータなしで hydrate されます (`query` は `{}` のように空になります) 。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042744Z" creationid="hirofumiwakasugi" creationdate="20191208T042413Z">
+        <seg>&gt; **メモ**: [自動静的最適化](#automatic-static-optimization) されたページはルートパラメータなしで hydrate されます (`query` は `{}` のように空になります) 。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>&gt; **Note**: Predefined routes take precedence over dynamic routes.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041826Z" creationid="hirofumiwakasugi" creationdate="20191208T041826Z">
-        <seg>&gt; **注意**: 事前定義された静的なルーティングは動的なルーティングより優先されます。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042752Z" creationid="hirofumiwakasugi" creationdate="20191208T041826Z">
+        <seg>&gt; **メモ**: 事前定義された静的なルーティングは動的なルーティングより優先されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1041,6 +1059,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041455Z" creationid="hirofumiwakasugi" creationdate="20191208T041455Z">
         <seg>&gt; [`&lt;Link&gt;` リンクに関しての詳細はこちらを参照ください](#with-link) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; You do not need to configure custom routes in a `now.json` file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042934Z" creationid="hirofumiwakasugi" creationdate="20191208T042908Z">
+        <seg>&gt; したがって、`now.json` でカスタムルーティングを構成する必要はありません。</seg>
       </tuv>
     </tu>
     <tu>
