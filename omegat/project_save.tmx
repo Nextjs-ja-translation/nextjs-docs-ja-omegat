@@ -941,6 +941,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; **Note**: Predefined routes take precedence over dynamic routes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041826Z" creationid="hirofumiwakasugi" creationdate="20191208T041826Z">
+        <seg>&gt; **注意**: 事前定義された静的なルーティングは動的なルーティングより優先されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; If you are using some server only modules inside `getInitialProps`, make sure to [import them properly](https://arunoda.me/blog/ssr-and-server-only-modules).</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T100022Z" creationid="hirofumiwakasugi" creationdate="20181119T100022Z">
@@ -1146,6 +1154,14 @@ dynamically according to your needs.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041426Z" creationid="hirofumiwakasugi" creationdate="20181119T041426Z">
         <seg>`import` したものはすべて「各ページごとに」バンドルされて配布されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, `/post/abc?pid=bcd` will have the `query` object: `{ pid: 'abc' }`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041703Z" creationid="hirofumiwakasugi" creationdate="20191208T041703Z">
+        <seg>例えば、`/post/abc?pid=bcd` は次の `query` オブジェクトを持ちます: `{ pid: 'abc' }` 。</seg>
       </tuv>
     </tu>
     <tu>
