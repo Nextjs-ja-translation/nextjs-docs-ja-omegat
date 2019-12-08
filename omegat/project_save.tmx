@@ -224,6 +224,14 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#### Helper Functions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114522Z" creationid="hirofumiwakasugi" creationdate="20191208T114522Z">
+        <seg>#### ヘルパー関数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#### Importing CSS / Sass / Less / Stylus files</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043336Z" creationid="hirofumiwakasugi" creationdate="20181119T043336Z">
@@ -426,6 +434,14 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113709Z" creationid="hirofumiwakasugi" creationdate="20191208T113709Z">
         <seg>- `req` は [NextApiRequest](https://github.com/zeit/next.js/blob/v9.0.0/packages/next-server/lib/utils.ts#L143-L158) の値であり、[http.IncomingMessage](https://nodejs.org/api/http.html#http_class_http_incomingmessage) を拡張したものです</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- `res.status(code)` - a function to set the status code.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114549Z" creationid="hirofumiwakasugi" creationdate="20191208T114549Z">
+        <seg>- `res.status(code)` - ステータスコードを設定するための関数です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1438,6 +1454,22 @@ dynamically according to your needs.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally, wrap your exported function in the middleware:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114513Z" creationid="hirofumiwakasugi" creationdate="20191208T114513Z">
+        <seg>最後に、export される関数をそのミドルウェアでラップすれば完成です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>First, install `micro-cors`:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114441Z" creationid="hirofumiwakasugi" creationdate="20191208T114441Z">
+        <seg>まず、`micro-cors` をインストールします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For [API routes](#api-routes) there are built-in types `NextApiRequest` and `NextApiResponse`, which extend the `Node.js` request and response objects.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113803Z" creationid="hirofumiwakasugi" creationdate="20191208T113721Z">
@@ -1943,6 +1975,14 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then, import `micro-cors` and [configure it](https://github.com/possibilities/micro-cors#readme).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114508Z" creationid="hirofumiwakasugi" creationdate="20191208T114508Z">
+        <seg>そして、`micro-cors` を import し[設定してください](https://github.com/possibilities/micro-cors#readme)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then, run `next dev` (normally `npm run dev`) and Next.js will guide you through installing the necessary packages to complete setup.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155542Z" creationid="hirofumiwakasugi" creationdate="20191206T155542Z">
@@ -2127,6 +2167,15 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We're providing a set of Express.js-like methods to improve the developer experience and increase the speed of creating new API endpoints:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114528Z" creationid="hirofumiwakasugi" creationdate="20191208T114528Z">
+        <seg>より良い developer experience を提供し、API エンドポイントをより高速に開発できるように、Express.js ライクなメソッドを用意しています:
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When using a custom server with a server file, for example called `server.js`, make sure you update the scripts key in `package.json` to:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T062956Z" creationid="hirofumiwakasugi" creationdate="20181220T062952Z">
@@ -2289,6 +2338,22 @@ routes; please refer to [Intercepting `popstate`](#intercepting-popstate).</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>```bash
+npm i micro-cors
+# or
+yarn add micro-cors
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114441Z" creationid="hirofumiwakasugi" creationdate="20191208T114441Z">
+        <seg>```bash
+npm i micro-cors
+# or
+yarn add micro-cors
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```bash
 npm install --save next react react-dom
 ```</seg>
       </tuv>
@@ -2364,6 +2429,16 @@ export default (req, res) =&gt; {</seg>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113612Z" creationid="hirofumiwakasugi" creationdate="20191208T113612Z">
         <seg>```js
 export default (req, res) =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```js
+import Cors from 'micro-cors'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114513Z" creationid="hirofumiwakasugi" creationdate="20191208T114513Z">
+        <seg>```js
+import Cors from 'micro-cors'</seg>
       </tuv>
     </tu>
     <tu>
@@ -2584,6 +2659,24 @@ import { NextApiRequest, NextApiResponse } from 'next'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>`body` can be a `string`, an `object` or a `Buffer`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114725Z" creationid="hirofumiwakasugi" creationdate="20191208T114725Z">
+        <seg>`body` は `string` か `object`、または `Buffer` である必要があります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`code` must be a valid [HTTP status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+- `res.json(json)` - Sends a `JSON` response.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114630Z" creationid="hirofumiwakasugi" creationdate="20191208T114630Z">
+        <seg>`code` は正しい [HTTP ステータスコード](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) である必要があります
+- `res.json(json)` - `JSON` レスポンスを送信します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`getInitialProps` receives a context object with the following properties:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050715Z" creationid="hirofumiwakasugi" creationdate="20181121T050715Z">
@@ -2600,10 +2693,30 @@ import { NextApiRequest, NextApiResponse } from 'next'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>`json` must be a valid `JSON` object
+- `res.send(body)` - Sends the HTTP response.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114658Z" creationid="hirofumiwakasugi" creationdate="20191208T114658Z">
+        <seg>`json` は正しい `JSON` オブジェクトである必要があります
+- `res.send(body)` - HTTP レスポンスを送信します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`}&lt;/style&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041436Z" creationid="hirofumiwakasugi" creationdate="20181119T041436Z">
         <seg>`}&lt;/style&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>allowedMethods: ['GET', 'HEAD'],
+})</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114514Z" creationid="hirofumiwakasugi" creationdate="20191208T114514Z">
+        <seg>allowedMethods: ['GET', 'HEAD'],
+})</seg>
       </tuv>
     </tu>
     <tu>
@@ -2748,6 +2861,14 @@ import { NextApiRequest, NextApiResponse } from 'next'</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035250Z" creationid="hirofumiwakasugi" creationdate="20191208T035250Z">
         <seg>const Post = () =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>const cors = Cors({</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114514Z" creationid="hirofumiwakasugi" creationdate="20191208T114514Z">
+        <seg>const cors = Cors({</seg>
       </tuv>
     </tu>
     <tu>
@@ -2966,10 +3087,28 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>export default cors(Endpoint)
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114515Z" creationid="hirofumiwakasugi" creationdate="20191208T114515Z">
+        <seg>export default cors(Endpoint)
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>function CowsayHi() {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144325Z" creationid="hirofumiwakasugi" creationdate="20191207T144325Z">
         <seg>function CowsayHi() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>function Endpoint(req, res) {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114514Z" creationid="hirofumiwakasugi" creationdate="20191208T114514Z">
+        <seg>function Endpoint(req, res) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -3094,10 +3233,32 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>res.json({ message: 'Hello Everyone!' })
+}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114514Z" creationid="hirofumiwakasugi" creationdate="20191208T114514Z">
+        <seg>res.json({ message: 'Hello Everyone!' })
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>res.setHeader('Content-Type', 'application/json')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113613Z" creationid="hirofumiwakasugi" creationdate="20191208T113613Z">
         <seg>res.setHeader('Content-Type', 'application/json')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>res.status(200).json({ name: 'Next.js' })
+}
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114529Z" creationid="hirofumiwakasugi" creationdate="20191208T114529Z">
+        <seg>res.status(200).json({ name: 'Next.js' })
+}
+```</seg>
       </tuv>
     </tu>
     <tu>
