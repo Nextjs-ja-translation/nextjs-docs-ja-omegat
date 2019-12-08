@@ -336,16 +336,16 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
       <tuv lang="EN-US">
         <seg>- `as`: the path that will be rendered in the browser URL bar.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040956Z" creationid="hirofumiwakasugi" creationdate="20191208T040956Z">
-        <seg>- `as`: ブラウザのアドレスバーに表示されるパス。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041003Z" creationid="hirofumiwakasugi" creationdate="20191208T040956Z">
+        <seg>- `as`: ブラウザのアドレスバーに表示されるパス</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>- `href`: the path inside `pages` directory.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040725Z" creationid="hirofumiwakasugi" creationdate="20191208T040725Z">
-        <seg>- `href`: `pages` ディレクトリ以下のパスを指定します。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041000Z" creationid="hirofumiwakasugi" creationdate="20191208T040725Z">
+        <seg>- `href`: `pages` ディレクトリ以下のパス</seg>
       </tuv>
     </tu>
     <tu>
@@ -997,6 +997,15 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035325Z" creationid="hirofumiwakasugi" creationdate="20191208T035325Z">
         <seg>このとき、`/post/1` や `/post/abc` などのルートは `pages/post/[pid].js` にマッチします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As `href` is a filesystem path, it shouldn't change at runtime, instead, you will probably need to change `as`
+dynamically according to your needs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041321Z" creationid="hirofumiwakasugi" creationdate="20191208T041321Z">
+        <seg>`href` はファイルシステム上のパスなので、ランタイムにそれを変更することはできません。したがって、パスを動的に設定する必要がある場合には `as` を動的に設定します。</seg>
       </tuv>
     </tu>
     <tu>
