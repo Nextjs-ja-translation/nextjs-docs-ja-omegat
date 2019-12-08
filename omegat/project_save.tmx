@@ -987,6 +987,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Defining routes by using predefined paths is not always enough for complex applications, in Next.js you can add brackets to a page (`[param]`) to create a dynamic route (a.k.a.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035123Z" creationid="hirofumiwakasugi" creationdate="20191208T035123Z">
+        <seg>複雑なアプリケーションでは、事前に定義されたパスによってルートを定義するのだけでは不足な場合があります。そのため、Next.js では、 `[param]` のようにページに角括弧 (ブラケット) を設定することで動的にDefining routes by using predefined paths is not always enough for complex applications, in Next.js you can add brackets to a page (`[param]`) to create a dynamic route (a.k.a.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Do _not_ add application logic here.</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T100232Z" creationid="Tetsutaro" creationdate="20181204T100232Z">
