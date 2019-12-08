@@ -941,10 +941,26 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; **Note**: Pages that are statically optimized by [automatic static optimization](#automatic-static-optimization) will be hydrated without their route parameters provided (`query` will be empty, i.e. `{}`).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042413Z" creationid="hirofumiwakasugi" creationdate="20191208T042413Z">
+        <seg>&gt; **注意**: [自動静的最適化](#automatic-static-optimization) されtaページはwill be hydrated without their route parameters provided (`query` will be empty, i.e. `{}`).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; **Note**: Predefined routes take precedence over dynamic routes.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041826Z" creationid="hirofumiwakasugi" creationdate="20191208T041826Z">
         <seg>&gt; **注意**: 事前定義された静的なルーティングは動的なルーティングより優先されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; For example, if you have `pages/post/[pid].js` and `pages/post/create.js`, the route `/post/create` will be matched by `pages/post/create.js` instead of the dynamic route (`[pid]`).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041932Z" creationid="hirofumiwakasugi" creationdate="20191208T041932Z">
+        <seg>&gt; 例えば、`pages/post/[pid].js` と `pages/post/create.js` というルートが存在する場合、`/post/create` は `pages/post/create.js` にマッチします。`[pid]` の動的なルーティングにはマッチしません。</seg>
       </tuv>
     </tu>
     <tu>
