@@ -408,8 +408,8 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
       <tuv lang="EN-US">
         <seg>- `res` refers to [NextApiResponse](https://github.com/zeit/next.js/blob/v9.0.0/packages/next-server/lib/utils.ts#L168-L178) which extends [http.ServerResponse](https://nodejs.org/api/http.html#http_class_http_serverresponse)</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113717Z" creationid="hirofumiwakasugi" creationdate="20191208T113717Z">
-        <seg>- `res` は [NextApiResponse](https://github.com/zeit/next.js/blob/v9.0.0/packages/next-server/lib/utils.ts#L168-L178) nowhich extends [http.ServerResponse](https://nodejs.org/api/http.html#http_class_http_serverresponse)</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113736Z" creationid="hirofumiwakasugi" creationdate="20191208T113717Z">
+        <seg>- `res` は [NextApiResponse](https://github.com/zeit/next.js/blob/v9.0.0/packages/next-server/lib/utils.ts#L168-L178) の値であり、[http.ServerResponse](https://nodejs.org/api/http.html#http_class_http_serverresponse) を拡張したものです</seg>
       </tuv>
     </tu>
     <tu>
@@ -430,6 +430,14 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>// Handle the rest of your HTTP methods</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113826Z" creationid="hirofumiwakasugi" creationdate="20191208T113826Z">
+        <seg>// Handle the rest of your HTTP methods</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>// Make sure the syntax and sources this file requires are compatible with the current node version you are running
 // See https://github.com/zeit/next.js/issues/1245 for discussions on Universal Webpack or universal Babel
 const { createServer } = require('http')
@@ -442,6 +450,14 @@ const next = require('next')</seg>
 const { createServer } = require('http')
 const { parse } = require('url')
 const next = require('next')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>// Process your POST request</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113824Z" creationid="hirofumiwakasugi" creationdate="20191208T113824Z">
+        <seg>// Process your POST request</seg>
       </tuv>
     </tu>
     <tu>
@@ -999,6 +1015,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; **Note**: API Routes [do not specify CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), so they'll be **same-origin only** by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113948Z" creationid="hirofumiwakasugi" creationdate="20191208T113843Z">
+        <seg>&gt; **注意**: API ルートには [CORS ヘッダーが設定されていません](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)。したがって、デフォルトでは **同一オリジンのみ**  で機能します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; **Note**: If deploying to [ZEIT Now](https://zeit.co/now) dynamic routes will work out-of-the-box.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042906Z" creationid="hirofumiwakasugi" creationdate="20191208T042740Z">
@@ -1111,6 +1135,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; We provide an [example of this below](#api-middlewares).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114011Z" creationid="hirofumiwakasugi" creationdate="20191208T114011Z">
+        <seg>&gt; [その例はこちらです](#api-middlewares)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; When you feel comfortable with TypeScript, you may turn this option on in your `tsconfig.json`.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T160110Z" creationid="hirofumiwakasugi" creationdate="20191206T160110Z">
@@ -1123,6 +1155,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041455Z" creationid="hirofumiwakasugi" creationdate="20191208T041455Z">
         <seg>&gt; [`&lt;Link&gt;` リンクに関しての詳細はこちらを参照ください](#with-link) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; You can customize this behavior by wrapping your export with CORS middleware.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113943Z" creationid="hirofumiwakasugi" creationdate="20191208T113943Z">
+        <seg>&gt; この挙動をカスタマイズしたい場合は、CORS ミドルウェアでラップして export することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1147,6 +1187,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040658Z" creationid="hirofumiwakasugi" creationdate="20191208T040658Z">
         <seg>`/post/abc` に対する `&lt;Link&gt;` はこのようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>API Routes do not increase your client-side bundle size.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114025Z" creationid="hirofumiwakasugi" creationdate="20191208T114025Z">
+        <seg>API ルートによってクライアントサイドのバンドルのサイズが大きくなることはありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1298,8 +1346,8 @@ dynamically according to your needs.</seg>
       <tuv lang="EN-US">
         <seg>For [API routes](#api-routes) there are built-in types `NextApiRequest` and `NextApiResponse`, which extend the `Node.js` request and response objects.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113721Z" creationid="hirofumiwakasugi" creationdate="20191208T113721Z">
-        <seg>For [API routes](#api-routes) there are built-in types `NextApiRequest` and `NextApiResponse`, which extend the `Node.js` request and response objects.</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113803Z" creationid="hirofumiwakasugi" creationdate="20191208T113721Z">
+        <seg>[API ルート](#api-routes)のために用意されているこれらの `NextApiRequest` と `NextApiResponse` という型は、それぞれ `Node.js` の request と response  型の拡張です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1841,6 +1889,14 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To handle different HTTP methods for API calls you can access `req.method` in your resolver function:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113823Z" creationid="hirofumiwakasugi" creationdate="20191208T113823Z">
+        <seg>API 呼び出しで様々な HTTP メソッドを扱いたい場合は、リゾルバ関数内で `req.method`  にアクセスすることができます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To inject the `pathname`, `query` or `asPath` in your component, you can use [withRouter](#using-a-higher-order-component).</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103917Z" creationid="hirofumiwakasugi" creationdate="20181121T103917Z">
@@ -2372,6 +2428,16 @@ import { useRouter } from 'next/router'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>```ts
+import { NextApiRequest, NextApiResponse } from 'next'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113805Z" creationid="hirofumiwakasugi" creationdate="20191208T113805Z">
+        <seg>```ts
+import { NextApiRequest, NextApiResponse } from 'next'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`getInitialProps` receives a context object with the following properties:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050715Z" creationid="hirofumiwakasugi" creationdate="20181121T050715Z">
@@ -2628,6 +2694,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>export default (req: NextApiRequest, res: NextApiResponse) =&gt; {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113805Z" creationid="hirofumiwakasugi" creationdate="20191208T113805Z">
+        <seg>export default (req: NextApiRequest, res: NextApiResponse) =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>export default CowsayHi
 ```</seg>
       </tuv>
@@ -2762,6 +2836,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>if (req.method === 'POST') {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113824Z" creationid="hirofumiwakasugi" creationdate="20191208T113824Z">
+        <seg>if (req.method === 'POST') {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>p {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041434Z" creationid="hirofumiwakasugi" creationdate="20181119T041434Z">
@@ -2810,6 +2892,18 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113613Z" creationid="hirofumiwakasugi" creationdate="20191208T113613Z">
         <seg>res.setHeader('Content-Type', 'application/json')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>res.status(200).json({ title: 'Next.js' })
+}
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113806Z" creationid="hirofumiwakasugi" creationdate="20191208T113806Z">
+        <seg>res.status(200).json({ title: 'Next.js' })
+}
+```</seg>
       </tuv>
     </tu>
     <tu>
