@@ -266,6 +266,18 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>))
+}
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041409Z" creationid="hirofumiwakasugi" creationdate="20191208T041409Z">
+        <seg>))
+}
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Automatic transpilation and bundling (with webpack and babel)
 - Hot code reloading
 - Server rendering and indexing of `./pages/`
@@ -442,6 +454,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;/Link&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041408Z" creationid="hirofumiwakasugi" creationdate="20191208T041408Z">
+        <seg>&lt;/Link&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/Link&gt;{' '}</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103414Z" creationid="hirofumiwakasugi" creationdate="20181121T103414Z">
@@ -516,6 +536,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;Link href="/post/[pid]" as={`/post/${pid}`}&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041407Z" creationid="hirofumiwakasugi" creationdate="20191208T041407Z">
+        <seg>&lt;Link href="/post/[pid]" as={`/post/${pid}`}&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;Link href={{ pathname: '/about', query: { name: 'Zeit' } }}&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20190107T043056Z" creationid="hirofumiwakasugi" creationdate="20190107T043056Z">
@@ -532,6 +560,14 @@ const next = require('next')</seg>
         <seg>&lt;a&gt;First Post&lt;/a&gt;
 &lt;/Link&gt;
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a&gt;Post {pid}&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041407Z" creationid="hirofumiwakasugi" creationdate="20191208T041407Z">
+        <seg>&lt;a&gt;Post {pid}&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -961,6 +997,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; You can [read more about `&lt;Link&gt;` here](#with-link).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041455Z" creationid="hirofumiwakasugi" creationdate="20191208T041455Z">
+        <seg>&gt; [`&lt;Link&gt;` リンクに関しての詳細はこちらを参照ください](#with-link) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>@media (max-width: 600px) {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041435Z" creationid="hirofumiwakasugi" creationdate="20181119T041435Z">
@@ -1170,10 +1214,26 @@ dynamically according to your needs.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here's an example to create a list of links:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041405Z" creationid="hirofumiwakasugi" creationdate="20191208T041405Z">
+        <seg>例えば、以下はリンクのリストを作成する例です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here's an example usage of it:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064001Z" creationid="hirofumiwakasugi" creationdate="20181220T064001Z">
         <seg>ここに使用例があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, if a query and route param name are the same, route parameters will override the matching query params.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041637Z" creationid="hirofumiwakasugi" creationdate="20191208T041637Z">
+        <seg>もしクエリとルートのパラメータが同一の名前だった場合には、クエリのパラメータはルートのパラメータで上書きされることに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1979,6 +2039,18 @@ const Page = ({ stars }) =&gt;</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>```jsx
+const pids = ['id1', 'id2', 'id3']
+{</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041406Z" creationid="hirofumiwakasugi" creationdate="20191208T041406Z">
+        <seg>```jsx
+const pids = ['id1', 'id2', 'id3']
+{</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
 export default () =&gt; (</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041432Z" creationid="hirofumiwakasugi" creationdate="20181119T041432Z">
@@ -2498,6 +2570,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041434Z" creationid="hirofumiwakasugi" creationdate="20181119T041434Z">
         <seg>p {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pids.map(pid =&gt; (</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041407Z" creationid="hirofumiwakasugi" creationdate="20191208T041407Z">
+        <seg>pids.map(pid =&gt; (</seg>
       </tuv>
     </tu>
     <tu>
