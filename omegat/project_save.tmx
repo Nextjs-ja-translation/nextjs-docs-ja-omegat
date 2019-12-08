@@ -931,6 +931,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any route like `/post/1`, `/post/abc`, etc will be matched by `pages/post/[pid].js`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035325Z" creationid="hirofumiwakasugi" creationdate="20191208T035325Z">
+        <seg>このとき、`/post/1` や `/post/abc` などのルートは `pages/post/[pid].js` にマッチします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Click{' '}</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103413Z" creationid="hirofumiwakasugi" creationdate="20181121T103413Z">
@@ -951,6 +959,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103352Z" creationid="hirofumiwakasugi" creationdate="20181121T103352Z">
         <seg>クライアントサイドでのルートの遷移は `&lt;Link&gt;` コンポーネントによって実現されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Consider the following page `pages/post/[pid].js`:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035249Z" creationid="hirofumiwakasugi" creationdate="20191208T035227Z">
+        <seg>`pages/post/[pid].js` というページが以下の内容であるとします:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1400,6 +1416,14 @@ may still access those paths.</seg>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103652Z" creationid="hirofumiwakasugi" creationdate="20181121T103652Z">
         <seg>コンポーネントを取得する
 2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The matched path parameter will be sent as a query parameter to the page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040255Z" creationid="hirofumiwakasugi" creationdate="20191208T040255Z">
+        <seg>そして、マッチしたパスのパラメータはクエリパラメータとしてページに送られます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1973,6 +1997,16 @@ import cowsay from 'cowsay-browser'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>```jsx
+import { useRouter } from 'next/router'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035249Z" creationid="hirofumiwakasugi" creationdate="20191208T035249Z">
+        <seg>```jsx
+import { useRouter } from 'next/router'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`getInitialProps` receives a context object with the following properties:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050715Z" creationid="hirofumiwakasugi" creationdate="20181121T050715Z">
@@ -2109,6 +2143,14 @@ import cowsay from 'cowsay-browser'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>const Post = () =&gt; {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035250Z" creationid="hirofumiwakasugi" creationdate="20191208T035250Z">
+        <seg>const Post = () =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()</seg>
@@ -2157,6 +2199,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>const router = useRouter()</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035250Z" creationid="hirofumiwakasugi" creationdate="20191208T035250Z">
+        <seg>const router = useRouter()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>const server = micro((req, res) =&gt; {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064006Z" creationid="hirofumiwakasugi" creationdate="20181220T064006Z">
@@ -2177,6 +2227,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T063022Z" creationid="hirofumiwakasugi" creationdate="20181220T063022Z">
         <seg>const { pathname, query } = parsedUrl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>const { pid } = router.query</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035250Z" creationid="hirofumiwakasugi" creationdate="20191208T035250Z">
+        <seg>const { pid } = router.query</seg>
       </tuv>
     </tu>
     <tu>
@@ -2260,6 +2318,16 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050626Z" creationid="hirofumiwakasugi" creationdate="20181121T050626Z">
         <seg>export default Page
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>export default Post
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035251Z" creationid="hirofumiwakasugi" creationdate="20191208T035251Z">
+        <seg>export default Post
 ```</seg>
       </tuv>
     </tu>
@@ -2391,6 +2459,16 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>return &lt;p&gt;Post: {pid}&lt;/p&gt;
+}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035250Z" creationid="hirofumiwakasugi" creationdate="20191208T035250Z">
+        <seg>return &lt;p&gt;Post: {pid}&lt;/p&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>return &lt;pre&gt;{cowsay.say({ text: 'hi there!' })}&lt;/pre&gt;
 }</seg>
       </tuv>
@@ -2453,8 +2531,8 @@ const handleNextRequests = app.getRequestHandler()</seg>
       <tuv lang="EN-US">
         <seg>url slugs, pretty urls, et al).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035224Z" creationid="hirofumiwakasugi" creationdate="20191208T035224Z">
-        <seg>(これは slug や pretty url などと呼ばれることもあります) </seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035230Z" creationid="hirofumiwakasugi" creationdate="20191208T035224Z">
+        <seg>(これは slug や pretty url などと呼ばれることもあります)</seg>
       </tuv>
     </tu>
     <tu>
