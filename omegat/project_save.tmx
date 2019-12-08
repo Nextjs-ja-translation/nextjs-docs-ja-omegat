@@ -334,6 +334,22 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- `as`: the path that will be rendered in the browser URL bar.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040956Z" creationid="hirofumiwakasugi" creationdate="20191208T040956Z">
+        <seg>- `as`: ブラウザのアドレスバーに表示されるパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- `href`: the path inside `pages` directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040725Z" creationid="hirofumiwakasugi" creationdate="20191208T040725Z">
+        <seg>- `href`: `pages` ディレクトリ以下のパスを指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- `pathname` - path section of URL
 - `query` - query string section of URL parsed as an object
 - `asPath` - `String` of the actual path (including the query) shows in the browser
@@ -504,6 +520,18 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20190107T043056Z" creationid="hirofumiwakasugi" creationdate="20190107T043056Z">
         <seg>&lt;Link href={{ pathname: '/about', query: { name: 'Zeit' } }}&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a&gt;First Post&lt;/a&gt;
+&lt;/Link&gt;
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040700Z" creationid="hirofumiwakasugi" creationdate="20191208T040700Z">
+        <seg>&lt;a&gt;First Post&lt;/a&gt;
+&lt;/Link&gt;
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -937,6 +965,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041435Z" creationid="hirofumiwakasugi" creationdate="20181119T041435Z">
         <seg>@media (max-width: 600px) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A `&lt;Link&gt;` for `/post/abc` looks like so:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040658Z" creationid="hirofumiwakasugi" creationdate="20191208T040658Z">
+        <seg>`/post/abc` に対する `&lt;Link&gt;` はこのようになります:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1909,6 +1945,16 @@ import Link from 'next/link'</seg>
         <seg>```jsx
 // pages/index.js
 import Link from 'next/link'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```jsx
+&lt;Link href="/post/[pid]" as="/post/abc"&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040659Z" creationid="hirofumiwakasugi" creationdate="20191208T040659Z">
+        <seg>```jsx
+&lt;Link href="/post/[pid]" as="/post/abc"&gt;</seg>
       </tuv>
     </tu>
     <tu>
