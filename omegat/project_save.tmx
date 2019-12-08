@@ -851,6 +851,16 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt;
+&gt; For example, `pages/post/[pid]/[comment].js` would match `/post/1/a-comment`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040558Z" creationid="hirofumiwakasugi" creationdate="20191208T040558Z">
+        <seg>&gt;
+&gt; 例えば、`pages/post/[pid]/[comment].js` は `/post/1/a-comment` にマッチしますが、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; **Note**: Next.js does not enable TypeScript's `strict` mode by default.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T160038Z" creationid="hirofumiwakasugi" creationdate="20191206T155929Z">
@@ -879,6 +889,22 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T161945Z" creationid="Tetsutaro" creationdate="20181204T161945Z">
         <seg>&gt; もしカスタムエラーページを作ったのならば、`next/error`ではなく、独自の`_error`コンポーネントをインポートしなければいけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; Its `query` object would be: `{ pid: '1', comment: 'a-comment' }`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040633Z" creationid="hirofumiwakasugi" creationdate="20191208T040633Z">
+        <seg>&gt; そのときの `query` オブジェクトは次のようになります: `{ pid: '1', comment: 'a-comment' }` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; Note: Multiple dynamic route segments work the same way.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040536Z" creationid="hirofumiwakasugi" creationdate="20191208T040536Z">
+        <seg>&gt; 注意: 複数の動的なルートセグメントがあるときも同様です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1031,6 +1057,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041426Z" creationid="hirofumiwakasugi" creationdate="20181119T041426Z">
         <seg>`import` したものはすべて「各ページごとに」バンドルされて配布されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the route `/post/abc` will have the following `query` object: `{ pid: 'abc' }`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040407Z" creationid="hirofumiwakasugi" creationdate="20191208T040407Z">
+        <seg>例えば、`/post/abc` というルートは次の `query` オブジェクトを持ちます: `{ pid: 'abc' }` 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1324,6 +1358,14 @@ may still access those paths.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041420Z" creationid="hirofumiwakasugi" creationdate="20181119T041420Z">
         <seg>`./pages/index.js` ファイルをプロジェクトに追加してみましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similarly, the route `/post/abc?foo=bar` will have the `query` object: `{ foo: 'bar', pid: 'abc' }`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040433Z" creationid="hirofumiwakasugi" creationdate="20191208T040433Z">
+        <seg>同様に、`/post/abc?foo=bar` であれば `query` オブジェクトは次のようになります: `{ foo: 'bar', pid: 'abc' }` 。</seg>
       </tuv>
     </tu>
     <tu>
