@@ -208,6 +208,14 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#### Dynamic routes support</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114038Z" creationid="hirofumiwakasugi" creationdate="20191208T114038Z">
+        <seg>#### 動的なルーティングのサポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#### Importing CSS / Sass / Less / Stylus files</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T043336Z" creationid="hirofumiwakasugi" creationdate="20181119T043336Z">
@@ -1199,6 +1207,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>API pages support [dynamic routing](#dynamic-routing), so you can use all benefits mentioned already above.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114101Z" creationid="hirofumiwakasugi" creationdate="20191208T114101Z">
+        <seg>API ページは[動的なルーティング](#dynamic-routing)をサポートしているので、その機能のすべてを利用することが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>API routes provides a straightforward solution to build your **API** with Next.js.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113544Z" creationid="hirofumiwakasugi" creationdate="20191208T113544Z">
@@ -1845,6 +1861,14 @@ may still access those paths.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155542Z" creationid="hirofumiwakasugi" creationdate="20191206T155542Z">
         <seg>それから、`next dev`(または、`npm run dev`)を実行すると環境構築に必要なパッケージをインストールするようメッセージがでますので、インストールしてセットアップを完了してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They are server-side only bundles.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114027Z" creationid="hirofumiwakasugi" creationdate="20191208T114027Z">
+        <seg>それらはサーバーサイドのみのバンドルとなります。</seg>
       </tuv>
     </tu>
     <tu>
