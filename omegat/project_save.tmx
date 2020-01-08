@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### TypeScript Support</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030811Z" creationid="hirofumiwakasugi" creationdate="20200108T030811Z">
+        <seg>### TypeScript のサポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#### API Middlewares</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114118Z" creationid="hirofumiwakasugi" creationdate="20191208T114118Z">
@@ -1529,6 +1537,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>AMP currently doesn't have built-in types for TypeScript, but it's in their roadmap ([#13791](https://github.com/ampproject/amphtml/issues/13791)).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030838Z" creationid="hirofumiwakasugi" creationdate="20200108T030838Z">
+        <seg>現在AMPにはTypeScriptの組み込み型はありません。しかし、ロードマップ ([#13791](https://github.com/ampproject/amphtml/issues/13791))にあるため、近い将来実装されるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>AMP pages are automatically validated with [amphtml-validator](https://www.npmjs.com/package/amphtml-validator) during development.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030714Z" creationid="hirofumiwakasugi" creationdate="20200108T030714Z">
@@ -1601,6 +1617,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any AMP errors will cause `next export` to exit with status code `1` because the export is not valid AMP.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030802Z" creationid="hirofumiwakasugi" creationdate="20200108T030802Z">
+        <seg>出力が有効な AMP ではなく AMP に関するエラーが起きた場合は、`next export` はステータスコード `1` をもって処理を終了します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any route like `/post/1`, `/post/abc`, etc will be matched by `pages/post/[pid].js`.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035325Z" creationid="hirofumiwakasugi" creationdate="20191208T035325Z">
@@ -1614,6 +1638,14 @@ dynamically according to your needs.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041321Z" creationid="hirofumiwakasugi" creationdate="20191208T041321Z">
         <seg>`href` はファイルシステム上のパスなので、ランタイムにそれを変更することはできません。したがって、パスを動的に設定する必要がある場合には `as` を動的に設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As a workaround you can manually add the types to `amp.d.ts` like [here](https://stackoverflow.com/a/50601125).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030850Z" creationid="hirofumiwakasugi" creationdate="20200108T030850Z">
+        <seg>回避策としては、[参考例](https://stackoverflow.com/a/50601125)のように手動で `amp.d.ts` に型を定義することで TypeScript 化を行えます。</seg>
       </tuv>
     </tu>
     <tu>
