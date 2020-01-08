@@ -94,10 +94,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### AMP Validation</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030637Z" creationid="hirofumiwakasugi" creationdate="20200108T030637Z">
+        <seg>### AMP バリデーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>### API Routes</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113508Z" creationid="hirofumiwakasugi" creationdate="20191208T113508Z">
         <seg>### API ルート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>### Adding AMP Components</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030547Z" creationid="hirofumiwakasugi" creationdate="20200108T030547Z">
+        <seg>### AMP コンポーネントの追加</seg>
       </tuv>
     </tu>
     <tu>
@@ -630,6 +646,14 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030627Z" creationid="hirofumiwakasugi" creationdate="20200108T030627Z">
+        <seg>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>// ...
 }</seg>
       </tuv>
@@ -740,6 +764,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T103414Z" creationid="hirofumiwakasugi" creationdate="20181121T103414Z">
         <seg>&lt;/Link&gt;{' '}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/amp-timeago&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030628Z" creationid="hirofumiwakasugi" creationdate="20200108T030628Z">
+        <seg>&lt;/amp-timeago&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -858,6 +890,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025423Z" creationid="hirofumiwakasugi" creationdate="20200108T025423Z">
         <seg>&lt;amp-img</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;amp-timeago</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030626Z" creationid="hirofumiwakasugi" creationdate="20200108T030626Z">
+        <seg>&lt;amp-timeago</seg>
       </tuv>
     </tu>
     <tu>
@@ -1150,6 +1190,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;p&gt;Some time: {date.toJSON()}&lt;/p&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030626Z" creationid="hirofumiwakasugi" creationdate="20200108T030626Z">
+        <seg>&lt;p&gt;Some time: {date.toJSON()}&lt;/p&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;p&gt;scoped!&lt;/p&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
@@ -1162,6 +1210,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041428Z" creationid="hirofumiwakasugi" creationdate="20181119T041428Z">
         <seg>&lt;pre&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;script</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030621Z" creationid="hirofumiwakasugi" creationdate="20200108T030621Z">
+        <seg>&lt;script</seg>
       </tuv>
     </tu>
     <tu>
@@ -1252,6 +1308,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030627Z" creationid="hirofumiwakasugi" creationdate="20200108T030627Z">
+        <seg>&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt;
 &gt; **You cannot remove this file, however, you can edit it (but don't need to).**</seg>
       </tuv>
@@ -1325,6 +1389,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T042752Z" creationid="hirofumiwakasugi" creationdate="20191208T041826Z">
         <seg>&gt; **メモ**: 事前定義された静的なルーティングは動的なルーティングより優先されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; **Note**: When using `exportTrailingSlash: true` in `next.config.js`, output will be different.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030514Z" creationid="hirofumiwakasugi" creationdate="20200108T030514Z">
+        <seg>&gt; **注意**: `next.config.js` で `exportTrailingSlash: true` と記載した場合、出力先がそれぞれのモードにおいて異なります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1453,6 +1525,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040658Z" creationid="hirofumiwakasugi" creationdate="20191208T040658Z">
         <seg>`/post/abc` に対する `&lt;Link&gt;` はこのようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AMP pages are automatically validated with [amphtml-validator](https://www.npmjs.com/package/amphtml-validator) during development.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030714Z" creationid="hirofumiwakasugi" creationdate="20200108T030714Z">
+        <seg>開発中は、[amphtml-validator](https://www.npmjs.com/package/amphtml-validator)によって、自動で AMP ページが検証されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1672,8 +1752,16 @@ dynamically according to your needs.</seg>
       <tuv lang="EN-US">
         <seg>During export Next.js automatically detects if a page is hybrid AMP and outputs the AMP version to `page.amp.html`.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030418Z" creationid="hirofumiwakasugi" creationdate="20200108T030418Z">
-        <seg>エクスポートの際に、ページがハイブリッド AMP ページかどうかを自動的に検出し、AMP バージョンを `page.amp.html` へ出力します。また、自動的に `&lt;link rel="amphtml" href="/page.amp" /&gt;` と `&lt;link rel="canonical" href="/" /&gt;` タグを埋め込みます。</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030435Z" creationid="hirofumiwakasugi" creationdate="20200108T030418Z">
+        <seg>エクスポートの際に、ページがハイブリッド AMP ページかどうかを自動的に検出し、AMP バージョンを `page.amp.html` へ出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Errors and warnings will appear in the terminal where you started Next.js.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030720Z" creationid="hirofumiwakasugi" creationdate="20200108T030720Z">
+        <seg>エラーと警告に関しては、Next.js を起動したターミナルに表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1714,6 +1802,14 @@ dynamically according to your needs.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114441Z" creationid="hirofumiwakasugi" creationdate="20191208T114441Z">
         <seg>まず、`micro-cors` をインストールします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For Hybrid AMP pages, output will be `out/page/index.html` and `out/page.amp/index.html`, and for AMP-only pages, output will be `out/page/index.html`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030536Z" creationid="hirofumiwakasugi" creationdate="20200108T030536Z">
+        <seg>ハイブリッド AMPページの場合、出力先が `out/page/index.html` と `out/page.amp/index.html` となり、AMP-only ページだと `out/page/index.html` となります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2059,6 +2155,14 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Pages are also validated during `next export` and any warnings / errors will be printed to the terminal.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030743Z" creationid="hirofumiwakasugi" creationdate="20200108T030743Z">
+        <seg>また、`next export` の際にも AMP に関する検証が行われ、エラーや警告があればターミナルに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Pages in `Next.js` skip the definition of the surrounding document's markup.</seg>
       </tuv>
       <tuv lang="JA" changeid="Tetsutaro" changedate="20181204T095845Z" creationid="Tetsutaro" creationdate="20181204T095845Z">
@@ -2143,6 +2247,14 @@ may still access those paths.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20190107T043059Z" creationid="hirofumiwakasugi" creationdate="20190107T043059Z">
         <seg>URL文字列`/about?name=Zeit`が作成され、[Node.jsモジュールドキュメント](https://nodejs.org/api/url.html#url_url_strings_and_url_objects)に定義されている全てのプロパティを利用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The AMP community provides [many components](https://amp.dev/documentation/components/) to make AMP pages more interactive.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030608Z" creationid="hirofumiwakasugi" creationdate="20200108T030608Z">
+        <seg>AMP コミュニティではたくさんの[コンポーネント](https://amp.dev/documentation/components/)が用意されており、AMP ページをよりインタラクティブにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2480,6 +2592,14 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can add these components to your page by using `next/head`:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030618Z" creationid="hirofumiwakasugi" creationdate="20200108T030618Z">
+        <seg>下記のように `next/head` を使ってAMP Componentsを追加することができます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can adjust size of parsed body by adding `sizeLimit` key to `bodyParser`, supported values are by [bytes](https://github.com/visionmedia/bytes.js) library.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114321Z" creationid="hirofumiwakasugi" creationdate="20191208T114321Z">
@@ -2699,6 +2819,18 @@ export const config = { amp: true }</seg>
         <seg>```js
 // pages/about.js
 export const config = { amp: true }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```js
+// pages/hello.js
+import Head from 'next/head'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030619Z" creationid="hirofumiwakasugi" creationdate="20200108T030619Z">
+        <seg>```js
+// pages/hello.js
+import Head from 'next/head'</seg>
       </tuv>
     </tu>
     <tu>
@@ -3097,6 +3229,14 @@ import { NextApiRequest, NextApiResponse } from 'next'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>async</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030621Z" creationid="hirofumiwakasugi" creationdate="20200108T030621Z">
+        <seg>async</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>background: black;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041437Z" creationid="hirofumiwakasugi" creationdate="20181119T041437Z">
@@ -3289,6 +3429,22 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>custom-element="amp-timeago"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030624Z" creationid="hirofumiwakasugi" creationdate="20200108T030624Z">
+        <seg>custom-element="amp-timeago"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>datetime={date.toJSON()}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030626Z" creationid="hirofumiwakasugi" creationdate="20200108T030626Z">
+        <seg>datetime={date.toJSON()}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>div {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041435Z" creationid="hirofumiwakasugi" creationdate="20181119T041435Z">
@@ -3309,6 +3465,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025420Z" creationid="hirofumiwakasugi" creationdate="20200108T025420Z">
         <seg>export const config = { amp: 'hybrid' }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>export const config = { amp: true }</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030619Z" creationid="hirofumiwakasugi" creationdate="20200108T030619Z">
+        <seg>export const config = { amp: true }</seg>
       </tuv>
     </tu>
     <tu>
@@ -3425,6 +3589,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>export default function MyAmpPage() {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030620Z" creationid="hirofumiwakasugi" creationdate="20200108T030620Z">
+        <seg>export default function MyAmpPage() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>function CowsayHi() {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144325Z" creationid="hirofumiwakasugi" creationdate="20191207T144325Z">
@@ -3453,6 +3625,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064008Z" creationid="hirofumiwakasugi" creationdate="20181220T064008Z">
         <seg>handleNextRequests(req, res)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>height="15"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030626Z" creationid="hirofumiwakasugi" creationdate="20200108T030626Z">
+        <seg>height="15"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3501,6 +3681,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113824Z" creationid="hirofumiwakasugi" creationdate="20191208T113824Z">
         <seg>if (req.method === 'POST') {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>key="amp-timeago"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030621Z" creationid="hirofumiwakasugi" creationdate="20200108T030621Z">
+        <seg>key="amp-timeago"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3739,6 +3927,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>src="https://cdn.ampproject.org/v0/amp-timeago-0.1.js"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030624Z" creationid="hirofumiwakasugi" creationdate="20200108T030624Z">
+        <seg>src="https://cdn.ampproject.org/v0/amp-timeago-0.1.js"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>static async getInitialProps({ req }) {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050615Z" creationid="hirofumiwakasugi" creationdate="20181121T050615Z">
@@ -3779,6 +3975,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
         <seg>useFileSystemPublicRoutes: false
 }
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>width="0"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030626Z" creationid="hirofumiwakasugi" creationdate="20200108T030626Z">
+        <seg>width="0"</seg>
       </tuv>
     </tu>
     <tu>
