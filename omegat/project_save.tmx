@@ -394,6 +394,14 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- Able to differentiate between modes using `useAmp` from `next/amp`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030021Z" creationid="hirofumiwakasugi" creationdate="20200108T030021Z">
+        <seg>- `next/amp` の `useAmp` を使用することで、AMP-only とハイブリッドモードを区別することができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Automatic transpilation and bundling (with webpack and babel)
 - Hot code reloading
 - Server rendering and indexing of `./pages/`
@@ -430,6 +438,14 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
         <seg>- サーバーサイドでレンダリングされる
 - 最初のサーバーサイドでレンダリングされる文書マークアップの内容を変更する
 - CSS-in-JSライブラリのためのサーバーサイドレンダリングの実行。CSS-in-JSライブラリとは[styled-components](./examples/with-styled-components), [glamorous](./examples/with-glamorous)&gt;や[emotion](with-emotion)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Opt-in via `export const config = { amp: 'hybrid' }`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025946Z" creationid="hirofumiwakasugi" creationdate="20200108T025946Z">
+        <seg>- `export const config = { amp: 'hybrid' }` で設定します</seg>
       </tuv>
     </tu>
     <tu>
@@ -492,8 +508,8 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
       <tuv lang="EN-US">
         <seg>- The AMP version of the page only has valid optimizations applied with AMP Optimizer so that it is indexable by search-engines</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025809Z" creationid="hirofumiwakasugi" creationdate="20200108T025809Z">
-        <seg>- The AMP version of the page only has valid optimizations applied with AMP Optimizer so that it is indexable by search-engines</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025919Z" creationid="hirofumiwakasugi" creationdate="20200108T025809Z">
+        <seg>- AMPバージョンのページでは、 AMP Optimizer による valid な最適化のみが行われるため、検索エンジンでのインデックスが可能です</seg>
       </tuv>
     </tu>
     <tu>
@@ -1500,6 +1516,14 @@ dynamically according to your needs.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114248Z" creationid="hirofumiwakasugi" creationdate="20191208T114248Z">
         <seg>リクエスト body のパースはデフォルトで有効になっていて、サイズの制限は `1mb` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Both of these page modes provide a consistently fast experience for users accessing pages through search engines.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030134Z" creationid="hirofumiwakasugi" creationdate="20200108T030134Z">
+        <seg>どちらのモードも、検索エンジン経由でのアクセスにおいて一貫した高速な UX を提供します。</seg>
       </tuv>
     </tu>
     <tu>
