@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### AMP Behavior with `next export`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030223Z" creationid="hirofumiwakasugi" creationdate="20200108T030204Z">
+        <seg>### `next export` における AMP の挙動について</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>### AMP First Page</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025405Z" creationid="hirofumiwakasugi" creationdate="20200108T025405Z">
@@ -540,6 +548,24 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T041000Z" creationid="hirofumiwakasugi" creationdate="20191208T040725Z">
         <seg>- `href`: `pages` ディレクトリ以下のパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- `out/about.html` - Optimized AMP page</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030344Z" creationid="hirofumiwakasugi" creationdate="20200108T030344Z">
+        <seg>- `out/about.html` - 最適化された AMP ページ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- `out/about.html` - with client-side React runtime
+- `out/about.amp.html` - AMP page</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030318Z" creationid="hirofumiwakasugi" creationdate="20200108T030318Z">
+        <seg>- `out/about.html` - クライアントサイドの React ランタイム
+- `out/about.amp.html` - AMP ページ</seg>
       </tuv>
     </tu>
     <tu>
@@ -1439,6 +1465,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>AMP-only (`pages/about.js`) would output:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030332Z" creationid="hirofumiwakasugi" creationdate="20200108T030332Z">
+        <seg>AMP-only (`pages/about.js`) での出力例は以下です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>API Routes do not increase your client-side bundle size.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114025Z" creationid="hirofumiwakasugi" creationdate="20191208T114025Z">
@@ -1636,6 +1670,14 @@ dynamically according to your needs.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>During export Next.js automatically detects if a page is hybrid AMP and outputs the AMP version to `page.amp.html`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030418Z" creationid="hirofumiwakasugi" creationdate="20200108T030418Z">
+        <seg>エクスポートの際に、ページがハイブリッド AMP ページかどうかを自動的に検出し、AMP バージョンを `page.amp.html` へ出力します。また、自動的に `&lt;link rel="amphtml" href="/page.amp" /&gt;` と `&lt;link rel="canonical" href="/" /&gt;` タグを埋め込みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every `.js` file becomes a route that gets automatically processed and rendered.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041419Z" creationid="hirofumiwakasugi" creationdate="20181119T041419Z">
@@ -1808,6 +1850,14 @@ dynamically according to your needs.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T110729Z" creationid="hirofumiwakasugi" creationdate="20181121T110729Z">
         <seg>However, sometimes, you’ll want to pass an `&lt;a&gt;` tag inside of a wrapper and the `Link` won’t recognize it as a *hyperlink*, and, consequently, won’t transfer its `href` to the child.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hybrid AMP (`pages/about.js`) would output:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030247Z" creationid="hirofumiwakasugi" creationdate="20200108T030247Z">
+        <seg>ハイブリッド AMP (`pages/about.js`) での出力例は以下です:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2349,6 +2399,14 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We also automatically insert the `&lt;link rel="amphtml" href="/page.amp" /&gt;` and `&lt;link rel="canonical" href="/" /&gt;` tags for you.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030430Z" creationid="hirofumiwakasugi" creationdate="20200108T030430Z">
+        <seg>エクスポート中にページがハイブリッドAMPページかどうかを自動的に検出し、AMPバージョンを `page.amp.html`へ出力します。また、自動的に`&lt;link rel="amphtml" href="/page.amp" /&gt;` と `&lt;link rel="canonical" href="/" /&gt;`タグを埋め込みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We bundle [styled-jsx](https://github.com/zeit/styled-jsx) to provide support for isolated scoped CSS.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041432Z" creationid="hirofumiwakasugi" creationdate="20181119T041432Z">
@@ -2386,6 +2444,14 @@ may still access those paths.</seg>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114528Z" creationid="hirofumiwakasugi" creationdate="20191208T114528Z">
         <seg>より良い developer experience を提供し、API エンドポイントをより高速に開発できるように、Express.js ライクなメソッドを用意しています:
 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using `next export` to statically prerender pages Next.js will detect if the page supports AMP and change the exporting behavior based on that.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T030231Z" creationid="hirofumiwakasugi" creationdate="20200108T030216Z">
+        <seg>`next export` で静的にページを事前レンダリングする際、Next.js はページが AMP をサポートしているかを検出し、結果に応じて挙動を変更します。</seg>
       </tuv>
     </tu>
     <tu>
