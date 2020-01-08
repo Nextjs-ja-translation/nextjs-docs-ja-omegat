@@ -54,10 +54,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>## AMP Support</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025325Z" creationid="hirofumiwakasugi" creationdate="20200108T025307Z">
+        <seg>## AMP のサポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>## How to use</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041407Z" creationid="hirofumiwakasugi" creationdate="20181119T041238Z">
         <seg>## 使い方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>### AMP First Page</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025405Z" creationid="hirofumiwakasugi" creationdate="20200108T025405Z">
+        <seg>### AMP ファーストページ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>### AMP Page Modes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025445Z" creationid="hirofumiwakasugi" creationdate="20200108T025445Z">
+        <seg>### AMP ページモード</seg>
       </tuv>
     </tu>
     <tu>
@@ -126,10 +150,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Enabling AMP Support</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025338Z" creationid="hirofumiwakasugi" creationdate="20200108T025255Z">
+        <seg>### AMP サポートの有効化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>### Fetching data and component lifecycle</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074853Z" creationid="hirofumiwakasugi" creationdate="20181119T074530Z">
         <seg>### データのフェッチとコンポーネントのライフサイクル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>### Hybrid AMP Page</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025419Z" creationid="hirofumiwakasugi" creationdate="20200108T025419Z">
+        <seg>### ハイブリッド AMP ページ</seg>
       </tuv>
     </tu>
     <tu>
@@ -280,6 +320,14 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025423Z" creationid="hirofumiwakasugi" creationdate="20200108T025423Z">
+        <seg>(</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050620Z" creationid="hirofumiwakasugi" creationdate="20181121T050620Z">
@@ -298,6 +346,26 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>)
+}
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025428Z" creationid="hirofumiwakasugi" creationdate="20200108T025428Z">
+        <seg>)
+}
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>) : (</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025426Z" creationid="hirofumiwakasugi" creationdate="20200108T025426Z">
+        <seg>) : (</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>))
 }
 ```</seg>
@@ -306,6 +374,22 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
         <seg>))
 }
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>)}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025427Z" creationid="hirofumiwakasugi" creationdate="20200108T025427Z">
+        <seg>)}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- AMP-only (default)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025447Z" creationid="hirofumiwakasugi" creationdate="20200108T025447Z">
+        <seg>- AMP-only (default)</seg>
       </tuv>
     </tu>
     <tu>
@@ -346,6 +430,22 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
         <seg>- サーバーサイドでレンダリングされる
 - 最初のサーバーサイドでレンダリングされる文書マークアップの内容を変更する
 - CSS-in-JSライブラリのためのサーバーサイドレンダリングの実行。CSS-in-JSライブラリとは[styled-components](./examples/with-styled-components), [glamorous](./examples/with-glamorous)&gt;や[emotion](with-emotion)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Pages are automatically optimized with [AMP Optimizer](https://github.com/ampproject/amp-toolbox/tree/master/packages/optimizer), an optimizer that applies the same transformations as AMP caches (improves performance by up to 42%)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025548Z" creationid="hirofumiwakasugi" creationdate="20200108T025548Z">
+        <seg>- AMPキャッシュと同じ変換を適用する[AMP Optimizer](https://github.com/ampproject/amp-toolbox/tree/master/packages/optimizer)によって自動的に最適化されます。(最大で、パフォーマンスを42％向上します)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Pages have no Next.js or React client-side runtime</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025512Z" creationid="hirofumiwakasugi" creationdate="20200108T025512Z">
+        <seg>- Next.jsまたは、Reactのクライアント側でのランタイムはありません</seg>
       </tuv>
     </tu>
     <tu>
@@ -520,6 +620,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025425Z" creationid="hirofumiwakasugi" creationdate="20200108T025425Z">
+        <seg>/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181204T103630Z" creationid="hirofumiwakasugi" creationdate="20181204T103630Z">
@@ -670,6 +778,14 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;amp-img</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025423Z" creationid="hirofumiwakasugi" creationdate="20200108T025423Z">
+        <seg>&lt;amp-img</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b&gt;Examples&lt;/b&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T042039Z" creationid="hirofumiwakasugi" creationdate="20181119T042039Z">
@@ -698,6 +814,22 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041433Z" creationid="hirofumiwakasugi" creationdate="20181119T041433Z">
         <seg>&lt;div&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;h3&gt;My AMP Page&lt;/h3&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025422Z" creationid="hirofumiwakasugi" creationdate="20200108T025422Z">
+        <seg>&lt;h3&gt;My AMP Page&lt;/h3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;img width="300" height="300" src="/my-img.jpg" alt="a cool image" /&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025426Z" creationid="hirofumiwakasugi" creationdate="20200108T025426Z">
+        <seg>&lt;img width="300" height="300" src="/my-img.jpg" alt="a cool image" /&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -802,6 +934,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144414Z" creationid="hirofumiwakasugi" creationdate="20191207T144414Z">
         <seg>&lt;li&gt;&lt;a href="/examples/with-styletron"&gt;Styletron&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;li&gt;&lt;a href="https://github.com/zeit/next.js/tree/canary/examples/amp"&gt;amp&lt;/a&gt;&lt;/li&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025309Z" creationid="hirofumiwakasugi" creationdate="20200108T025309Z">
+        <seg>&lt;li&gt;&lt;a href="https://github.com/zeit/next.js/tree/canary/examples/amp"&gt;amp&lt;/a&gt;&lt;/li&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1237,6 +1377,14 @@ const next = require('next')</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T040658Z" creationid="hirofumiwakasugi" creationdate="20191208T040658Z">
         <seg>`/post/abc` に対する `&lt;Link&gt;` はこのようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AMP pages can specify two modes:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025454Z" creationid="hirofumiwakasugi" creationdate="20200108T025446Z">
+        <seg>AMP化するには、２つのモードがあります:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2039,6 +2187,14 @@ may still access those paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To enable AMP support for a page, add `export const config = { amp: true }` to your page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025353Z" creationid="hirofumiwakasugi" creationdate="20200108T025353Z">
+        <seg>`export const config = { amp: true }` をページに追記することで、AMP を有効化することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To get started, create a empty `tsconfig.json` file in the root of your project:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155452Z" creationid="hirofumiwakasugi" creationdate="20191206T155452Z">
@@ -2412,6 +2568,30 @@ module.exports = {</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>```js
+// pages/about.js
+export const config = { amp: true }</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025406Z" creationid="hirofumiwakasugi" creationdate="20200108T025406Z">
+        <seg>```js
+// pages/about.js
+export const config = { amp: true }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```js
+// pages/hybrid-about.js
+import { useAmp } from 'next/amp'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025420Z" creationid="hirofumiwakasugi" creationdate="20200108T025420Z">
+        <seg>```js
+// pages/hybrid-about.js
+import { useAmp } from 'next/amp'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```js
 const next = require('next')
 const micro = require('micro')</seg>
       </tuv>
@@ -2721,6 +2901,14 @@ import { NextApiRequest, NextApiResponse } from 'next'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>alt="a cool image"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025424Z" creationid="hirofumiwakasugi" creationdate="20200108T025424Z">
+        <seg>alt="a cool image"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>and add a script to your package.json like this:</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041411Z" creationid="hirofumiwakasugi" creationdate="20181119T041411Z">
@@ -2993,6 +3181,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>export const config = { amp: 'hybrid' }</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025420Z" creationid="hirofumiwakasugi" creationdate="20200108T025420Z">
+        <seg>export const config = { amp: 'hybrid' }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>export default () =&gt; (</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041427Z" creationid="hirofumiwakasugi" creationdate="20181119T041427Z">
@@ -3097,6 +3293,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>export default function AboutPage(props) {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025408Z" creationid="hirofumiwakasugi" creationdate="20200108T025408Z">
+        <seg>export default function AboutPage(props) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>function CowsayHi() {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191207T144325Z" creationid="hirofumiwakasugi" creationdate="20191207T144325Z">
@@ -3125,6 +3329,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064008Z" creationid="hirofumiwakasugi" creationdate="20181220T064008Z">
         <seg>handleNextRequests(req, res)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>height="300"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025424Z" creationid="hirofumiwakasugi" creationdate="20200108T025424Z">
+        <seg>height="300"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3165,6 +3377,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113824Z" creationid="hirofumiwakasugi" creationdate="20191208T113824Z">
         <seg>if (req.method === 'POST') {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>layout="responsive"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025425Z" creationid="hirofumiwakasugi" creationdate="20200108T025425Z">
+        <seg>layout="responsive"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3301,6 +3521,18 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>return &lt;h3&gt;My AMP About Page!&lt;/h3&gt;
+}
+```</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025409Z" creationid="hirofumiwakasugi" creationdate="20200108T025409Z">
+        <seg>return &lt;h3&gt;My AMP About Page!&lt;/h3&gt;
+}
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>return &lt;img src="/my-image.png" alt="my image" /&gt;
 }</seg>
       </tuv>
@@ -3375,6 +3607,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>src="/my-img.jpg"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025424Z" creationid="hirofumiwakasugi" creationdate="20200108T025424Z">
+        <seg>src="/my-img.jpg"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>static async getInitialProps({ req }) {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181121T050615Z" creationid="hirofumiwakasugi" creationdate="20181121T050615Z">
@@ -3419,10 +3659,26 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>width="300"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025424Z" creationid="hirofumiwakasugi" creationdate="20200108T025424Z">
+        <seg>width="300"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{cowsay.say({ text: 'hi there!' })}</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041428Z" creationid="hirofumiwakasugi" creationdate="20181119T041428Z">
         <seg>{cowsay.say({ text: 'hi there!' })}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{useAmp() ?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025423Z" creationid="hirofumiwakasugi" creationdate="20200108T025423Z">
+        <seg>{useAmp() ?</seg>
       </tuv>
     </tu>
     <tu>
