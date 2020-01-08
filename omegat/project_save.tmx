@@ -388,8 +388,8 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
       <tuv lang="EN-US">
         <seg>- AMP-only (default)</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025447Z" creationid="hirofumiwakasugi" creationdate="20200108T025447Z">
-        <seg>- AMP-only (default)</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025750Z" creationid="hirofumiwakasugi" creationdate="20200108T025447Z">
+        <seg>- AMP-only (デフォルト)</seg>
       </tuv>
     </tu>
     <tu>
@@ -434,18 +434,44 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- Opt-in via `export const config = { amp: true }`
+- Hybrid</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025759Z" creationid="hirofumiwakasugi" creationdate="20200108T025709Z">
+        <seg>- `export const config = { amp: true }`で設定します
+- ハイブリッド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Pages are able to be rendered as traditional HTML (default) and AMP HTML (by adding `?amp=1` to the URL)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025823Z" creationid="hirofumiwakasugi" creationdate="20200108T025752Z">
+        <seg>- 従来のHTML（デフォルト）のレンダリングに加えて、URLの末尾に `?amp=1` を指定することで AMP HTML としてレンダリングすることが可能です</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Pages are automatically optimized with [AMP Optimizer](https://github.com/ampproject/amp-toolbox/tree/master/packages/optimizer), an optimizer that applies the same transformations as AMP caches (improves performance by up to 42%)</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025548Z" creationid="hirofumiwakasugi" creationdate="20200108T025548Z">
-        <seg>- AMPキャッシュと同じ変換を適用する[AMP Optimizer](https://github.com/ampproject/amp-toolbox/tree/master/packages/optimizer)によって自動的に最適化されます。(最大で、パフォーマンスを42％向上します)</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025723Z" creationid="hirofumiwakasugi" creationdate="20200108T025548Z">
+        <seg>- ページには AMP キャッシュと同じ変換が適用され、[AMP Optimizer](https://github.com/ampproject/amp-toolbox/tree/master/packages/optimizer)によって自動的に最適化されます (最大で、パフォーマンスを42％向上します)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Pages have a user-accessible (optimized) version of the page and a search-engine indexable (unoptimized) version of the page</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025716Z" creationid="hirofumiwakasugi" creationdate="20200108T025649Z">
+        <seg>- ページには、ユーザーがアクセス可能な（最適化された）バージョンと、検索エンジンでインデックス可能な（最適化されていない）バージョンがあります</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>- Pages have no Next.js or React client-side runtime</seg>
       </tuv>
-      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025512Z" creationid="hirofumiwakasugi" creationdate="20200108T025512Z">
-        <seg>- Next.jsまたは、Reactのクライアント側でのランタイムはありません</seg>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025604Z" creationid="hirofumiwakasugi" creationdate="20200108T025512Z">
+        <seg>- ページには、Next.js および React のクライアント側でのランタイムはありません</seg>
       </tuv>
     </tu>
     <tu>
@@ -460,6 +486,14 @@ By default, `Next` will serve each file in `/pages` under a pathname matching th
 - ページ移動する際にステートを保持
 - `componentDidCatch`を使用したカスタムエラーハンドリング
 - ページに追加のデータを注入（例えばGraphQLクエリを使用することによって）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- The AMP version of the page only has valid optimizations applied with AMP Optimizer so that it is indexable by search-engines</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200108T025809Z" creationid="hirofumiwakasugi" creationdate="20200108T025809Z">
+        <seg>- The AMP version of the page only has valid optimizations applied with AMP Optimizer so that it is indexable by search-engines</seg>
       </tuv>
     </tu>
     <tu>
