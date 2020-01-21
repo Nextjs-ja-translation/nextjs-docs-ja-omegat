@@ -1174,6 +1174,16 @@ const next = require('next')</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;main&gt;Your user agent: {userAgent}&lt;/main&gt;
+)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T080938Z" creationid="hirofumiwakasugi" creationdate="20200121T080938Z">
+        <seg>&lt;main&gt;Your user agent: {userAgent}&lt;/main&gt;
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;meta name="viewport" content="initial-scale=1.0, width=device-width" /&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074328Z" creationid="hirofumiwakasugi" creationdate="20181119T074328Z">
@@ -1858,6 +1868,14 @@ dynamically according to your needs.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113803Z" creationid="hirofumiwakasugi" creationdate="20191208T113721Z">
         <seg>[API ルート](#api-routes)のために用意されているこれらの `NextApiRequest` と `NextApiResponse` という型は、それぞれ `Node.js` の request と response  型の拡張です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For `React.Component` you can use `NextPageContext`:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T081004Z" creationid="hirofumiwakasugi" creationdate="20200121T081004Z">
+        <seg>`React.Component` の場合は `NextPageContext` を使います:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3151,6 +3169,28 @@ import { NextApiRequest, NextApiResponse } from 'next'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>```tsx
+import React from 'react'
+import { NextPageContext } from 'next'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T081004Z" creationid="hirofumiwakasugi" creationdate="20200121T081004Z">
+        <seg>```tsx
+import React from 'react'
+import { NextPageContext } from 'next'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>```tsx
+import { NextPage } from 'next'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T080935Z" creationid="hirofumiwakasugi" creationdate="20200121T080935Z">
+        <seg>```tsx
+import { NextPage } from 'next'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`body` can be a `string`, an `object` or a `Buffer`</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T114725Z" creationid="hirofumiwakasugi" creationdate="20191208T114725Z">
@@ -3365,6 +3405,14 @@ import { NextApiRequest, NextApiResponse } from 'next'</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>const Page: NextPage&lt;Props&gt; = ({ userAgent }) =&gt; (</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T080937Z" creationid="hirofumiwakasugi" creationdate="20200121T080937Z">
+        <seg>const Page: NextPage&lt;Props&gt; = ({ userAgent }) =&gt; (</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>const Post = () =&gt; {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035250Z" creationid="hirofumiwakasugi" creationdate="20191208T035250Z">
@@ -3473,6 +3521,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T035250Z" creationid="hirofumiwakasugi" creationdate="20191208T035250Z">
         <seg>const { pid } = router.query</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>const { userAgent } = this.props</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T081009Z" creationid="hirofumiwakasugi" creationdate="20200121T081009Z">
+        <seg>const { userAgent } = this.props</seg>
       </tuv>
     </tu>
     <tu>
@@ -3619,6 +3675,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>export default class Page extends React.Component&lt;Props&gt; {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T081006Z" creationid="hirofumiwakasugi" creationdate="20200121T081006Z">
+        <seg>export default class Page extends React.Component&lt;Props&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>export default class extends React.Component {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T075257Z" creationid="hirofumiwakasugi" creationdate="20181119T075257Z">
@@ -3737,6 +3801,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191208T113824Z" creationid="hirofumiwakasugi" creationdate="20191208T113824Z">
         <seg>if (req.method === 'POST') {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>interface Props {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T080936Z" creationid="hirofumiwakasugi" creationdate="20200121T080936Z">
+        <seg>interface Props {</seg>
       </tuv>
     </tu>
     <tu>
@@ -3911,6 +3983,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>return &lt;main&gt;Your user agent: {userAgent}&lt;/main&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T081015Z" creationid="hirofumiwakasugi" creationdate="20200121T081015Z">
+        <seg>return &lt;main&gt;Your user agent: {userAgent}&lt;/main&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>return &lt;p style={{ color: 'red' }}&gt;hi there&lt;/p&gt;
 }</seg>
       </tuv>
@@ -3959,6 +4039,16 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>return { userAgent }
+}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T080940Z" creationid="hirofumiwakasugi" creationdate="20200121T080940Z">
+        <seg>return { userAgent }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>server.listen(port, (err) =&gt; {</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064008Z" creationid="hirofumiwakasugi" creationdate="20181220T064008Z">
@@ -3999,6 +4089,14 @@ const handleNextRequests = app.getRequestHandler()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>static async getInitialProps({ req }: NextPageContext) {</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T081006Z" creationid="hirofumiwakasugi" creationdate="20200121T081006Z">
+        <seg>static async getInitialProps({ req }: NextPageContext) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>throw err</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181220T064009Z" creationid="hirofumiwakasugi" creationdate="20181220T064009Z">
@@ -4031,6 +4129,16 @@ const handleNextRequests = app.getRequestHandler()</seg>
         <seg>useFileSystemPublicRoutes: false
 }
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>userAgent?: string
+}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T080936Z" creationid="hirofumiwakasugi" creationdate="20200121T080936Z">
+        <seg>userAgent?: string
+}</seg>
       </tuv>
     </tu>
     <tu>
