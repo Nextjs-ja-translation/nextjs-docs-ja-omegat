@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Exported types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T080813Z" creationid="hirofumiwakasugi" creationdate="20200121T080813Z">
+        <seg>### 型のエクスポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>### Fetching data and component lifecycle</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T074853Z" creationid="hirofumiwakasugi" creationdate="20181119T074530Z">
@@ -2130,6 +2138,14 @@ you do not want programmatically.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Next.js provides `NextPage` type that can be used for pages in the `pages` directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T080838Z" creationid="hirofumiwakasugi" creationdate="20200121T080838Z">
+        <seg>Next.js では、`NextPage` という型が提供されており、pages ディレクトリの中にあるページで使用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Next.js provides an integrated TypeScript experience out of the box, similar to an IDE.</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20191206T155432Z" creationid="hirofumiwakasugi" creationdate="20191206T155432Z">
@@ -2757,6 +2773,14 @@ routes; please refer to [Intercepting `popstate`](#intercepting-popstate).</seg>
       </tuv>
       <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20181119T041424Z" creationid="hirofumiwakasugi" creationdate="20181119T041424Z">
         <seg>`./static/` は `/static/` にマッピングされます (プロジェクトに [`./static/` ディレクトリを作成](#static-file-serving-eg-images)する必要があります。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`NextPage` adds definitions for [`getInitialProps`](#fetching-data-and-component-lifecycle) so that it can be used without any extra typing needed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hirofumiwakasugi" changedate="20200121T080934Z" creationid="hirofumiwakasugi" creationdate="20200121T080934Z">
+        <seg>`NextPage` は [`getInitialProps`](#fetching-data-and-component-lifecycle) に対して型情報を提供するため、自分で型定義をすることなく簡単に利用できます。</seg>
       </tuv>
     </tu>
     <tu>
